@@ -56,6 +56,7 @@ func createTable() {
 }
 
 func main() {
+
 	beego.Run()
 }
 
