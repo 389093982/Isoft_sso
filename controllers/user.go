@@ -45,18 +45,21 @@ func (this *UserController) DeleteToken()  {
 	// 对密文 token 进行解密
 	key := []byte(aes_sso_key)
 	b,err := base64.StdEncoding.DecodeString(token)
-	if err == nil{
-		origData, err := util.AesDecrypt(b, key)
-		if err == nil {
-			tokenStr := string(origData)
-			var tokenMap map[string]string
-			json.Unmarshal([]byte(tokenStr), &tokenMap)
-			ssoSessionId := tokenMap["ssoSessionId"]
-			sess,_ := globalSessions.GetSessionStore(ssoSessionId)
-			// session 释放
-			sess.SessionRelease(this.Ctx.ResponseWriter)
-			this.Data["json"] = &map[string]interface{}{"status": "SUCCESS", "msg":"Token 删除成功!"}
-		}
+	if err != nil{
+		token = strings.Replace(token, "AAAAAAAA", "+", -1)
+		token = strings.Replace(token, "BBBBBBBB", "/", -1)
+		b,err = base64.StdEncoding.DecodeString(token)
+	}
+	origData, err := util.AesDecrypt(b, key)
+	if err == nil {
+		tokenStr := string(origData)
+		var tokenMap map[string]string
+		json.Unmarshal([]byte(tokenStr), &tokenMap)
+		ssoSessionId := tokenMap["ssoSessionId"]
+		sess,_ := globalSessions.GetSessionStore(ssoSessionId)
+		// session 释放
+		sess.SessionRelease(this.Ctx.ResponseWriter)
+		this.Data["json"] = &map[string]interface{}{"status": "SUCCESS", "msg":"Token 删除成功!"}
 	}
 	this.ServeJSON()
 }
@@ -74,24 +77,27 @@ func (this *UserController) CheckLogin()  {
 	// 对密文 token 进行解密
 	key := []byte(aes_sso_key)
 	b,err := base64.StdEncoding.DecodeString(token)
-	if err == nil{
-		origData, err := util.AesDecrypt(b, key)
-		if err == nil {
-			tokenStr := string(origData)
-			var tokenMap map[string]string
-			json.Unmarshal([]byte(tokenStr), &tokenMap)
+	if err != nil{
+		token = strings.Replace(token, "AAAAAAAA", "+", -1)
+		token = strings.Replace(token, "BBBBBBBB", "/", -1)
+		b,err = base64.StdEncoding.DecodeString(token)
+	}
+	origData, err := util.AesDecrypt(b, key)
+	if err == nil {
+		tokenStr := string(origData)
+		var tokenMap map[string]string
+		json.Unmarshal([]byte(tokenStr), &tokenMap)
 
-			ssoSessionId := tokenMap["ssoSessionId"]
-			userName := tokenMap["userName"]
-			isLogin := tokenMap["isLogin"]
+		ssoSessionId := tokenMap["ssoSessionId"]
+		userName := tokenMap["userName"]
+		isLogin := tokenMap["isLogin"]
 
-			sess,_ := globalSessions.GetSessionStore(ssoSessionId)
-			if sess.Get("userName") == userName && sess.Get("isLogin") == isLogin {
-				this.Data["json"] = &map[string]interface{}{"userName": tokenMap["userName"], "status": "SUCCESS", "msg":"认证成功!"}
-			}else{
-				// session 释放
-				sess.SessionRelease(this.Ctx.ResponseWriter)
-			}
+		sess,_ := globalSessions.GetSessionStore(ssoSessionId)
+		if sess.Get("userName") == userName && sess.Get("isLogin") == isLogin {
+			this.Data["json"] = &map[string]interface{}{"userName": tokenMap["userName"], "isLogin": tokenMap["isLogin"], "status": "SUCCESS", "msg":"认证成功!"}
+		}else{
+			// session 释放
+			sess.SessionRelease(this.Ctx.ResponseWriter)
 		}
 	}
 	this.ServeJSON()
