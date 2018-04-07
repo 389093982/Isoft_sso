@@ -46,8 +46,9 @@ func (this *UserController) DeleteToken()  {
 	key := []byte(aes_sso_key)
 	b,err := base64.StdEncoding.DecodeString(token)
 	if err != nil{
-		token = strings.Replace(token, "AAAAAAAA", "+", -1)
-		token = strings.Replace(token, "BBBBBBBB", "/", -1)
+		// 自定义解码方式,主要供非 go 代码方式调用
+		token = strings.Replace(token, "BAAAAAAAAB", "+", -1)
+		token = strings.Replace(token, "ABBBBBBBBA", "/", -1)
 		b,err = base64.StdEncoding.DecodeString(token)
 	}
 	origData, err := util.AesDecrypt(b, key)
@@ -78,8 +79,8 @@ func (this *UserController) CheckLogin()  {
 	key := []byte(aes_sso_key)
 	b,err := base64.StdEncoding.DecodeString(token)
 	if err != nil{
-		token = strings.Replace(token, "AAAAAAAA", "+", -1)
-		token = strings.Replace(token, "BBBBBBBB", "/", -1)
+		token = strings.Replace(token, "BAAAAAAAAB", "+", -1)
+		token = strings.Replace(token, "ABBBBBBBBA", "/", -1)
 		b,err = base64.StdEncoding.DecodeString(token)
 	}
 	origData, err := util.AesDecrypt(b, key)
@@ -149,109 +150,108 @@ func (this *UserController) Login()  {
 		username := this.Input().Get("username")
 		passwd := this.Input().Get("passwd")
 		if IsAdminUser(username){	// 是管理面账号
-			if CheckOrigin(origin){	// 非跨站点
-				// 跳往管理界面
-				this.TplName = "admin.html"
-			}else{
-				var loginLog models.LoginLog
-				loginLog.UserName = username
-				loginLog.LoginIp = this.Ctx.Input.IP()
-				loginLog.Origin = origin
-				loginLog.Referer = referer
-				loginLog.LoginStatus = "origin_error"
-				loginLog.LoginResult = "FAILED"
-				loginLog.CreatedBy = "SYSTEM"
-				loginLog.CreatedTime = time.Now()
-				loginLog.LastUpdatedBy = "SYSTEM"
-				loginLog.LastUpdatedTime = time.Now()
-				models.AddLoginLog(loginLog)
-
-				this.TplName = "403.html"
-			}
-		}else{
-			referers := strings.Split(referer, "/user/login?redirectUrl=")
-			if CheckOrigin(origin) && len(referers) == 2 && CheckOrigin(referers[0]) && IsValidRedirectUrl(referers[1]){
-				user, err := models.QueryUser(username,passwd)
-				if err == nil && &user != nil{
-					var loginLog models.LoginLog
-					loginLog.UserName = username
-					loginLog.LoginIp = this.Ctx.Input.IP()
-					loginLog.Origin = origin
-					loginLog.Referer = referer
-					loginLog.LoginStatus = "success"
-					loginLog.LoginResult = "SUCCESS"
-					loginLog.CreatedBy = "SYSTEM"
-					loginLog.CreatedTime = time.Now()
-					loginLog.LastUpdatedBy = "SYSTEM"
-					loginLog.LastUpdatedTime = time.Now()
-					models.AddLoginLog(loginLog)
-
-					// 将用户登录信息添加到 session 中去
-					this.SetSession("UserName",user.UserName)
-					sess, _ := globalSessions.SessionStart(this.Ctx.ResponseWriter, this.Ctx.Request)
-					sess.Set("ssoSessionId", sess.SessionID())
-					sess.Set("userName", user.UserName)
-					sess.Set("isLogin", "isLogin")
-
-					// 设置 cookie 信息
-					this.Ctx.ResponseWriter.Header().Set("Access-Control-Allow-Origin", ".isoft.com")
-
-					token := make(map[string]string,10)
-					token["ssoSessionId"] = sess.SessionID()
-					token["userName"] = username
-					token["isLogin"] = "isLogin"
-					b, er := json.Marshal(token)
-					if er == nil {
-						// 使用 AES 加密算法进行加密
-						key := []byte(aes_sso_key)
-						result, err := util.AesEncrypt([]byte(string(b)), key)
-						if err == nil {
-							// 加密成功后将密文 token 添加到 cookie 中
-							this.Ctx.SetCookie("token", base64.StdEncoding.EncodeToString(result), 100, "/")
-						}
-					}
-
-					// 则重定向到 redirectUrl,原生的方法是：w.Header().Set("Location", "http://www.baidu.com") w.WriteHeader(301)
-					this.Redirect(referers[1],301)
-				}else{
-					var loginLog models.LoginLog
-					loginLog.UserName = username
-					loginLog.LoginIp = this.Ctx.Input.IP()
-					loginLog.Origin = origin
-					loginLog.Referer = referer
-					loginLog.LoginStatus = "account_error"
-					loginLog.LoginResult = "FAILED"
-					loginLog.CreatedBy = "SYSTEM"
-					loginLog.CreatedTime = time.Now()
-					loginLog.LastUpdatedBy = "SYSTEM"
-					loginLog.LastUpdatedTime = time.Now()
-					models.AddLoginLog(loginLog)
-
-					this.Data["ErrorMsg"] = "用户名或密码不正确!"
-					this.TplName = "login.html"
-				}
-			}else{
-
-				var loginLog models.LoginLog
-				loginLog.UserName = username
-				loginLog.LoginIp = this.Ctx.Input.IP()
-				loginLog.Origin = origin
-				loginLog.Referer = referer
-				if !CheckOrigin(origin){
-					loginLog.LoginStatus = "origin_error"
-				}else {
-					loginLog.LoginStatus = "refer_error"
-				}
-				loginLog.LoginResult = "FAILED"
-				loginLog.CreatedBy = "SYSTEM"
-				loginLog.CreatedTime = time.Now()
-				loginLog.LastUpdatedBy = "SYSTEM"
-				loginLog.LastUpdatedTime = time.Now()
-				models.AddLoginLog(loginLog)
-
-				this.TplName = "403.html"
-			}
+			AdminUserLogin(origin, this, username, referer)
+		} else {
+			CommonUserLogin(referer, origin, username, passwd, this)
 		}
+	}
+}
+func CommonUserLogin(referer string, origin string, username string, passwd string, this *UserController) {
+	referers := strings.Split(referer, "/user/login?redirectUrl=")
+	if CheckOrigin(origin) && len(referers) == 2 && CheckOrigin(referers[0]) && IsValidRedirectUrl(referers[1]) {
+		user, err := models.QueryUser(username, passwd)
+		if err == nil && &user != nil {
+			SuccessedLogin(username, this, origin, referer, user, referers)
+		} else {
+			ErrorAccountLogin(username, this, origin, referer)
+		}
+	} else {
+		ErrorAuthorizedLogin(username, this, origin, referer)
+	}
+}
+
+func SuccessedLogin(username string, this *UserController, origin string, referer string, user models.User, referers []string) {
+	var loginLog models.LoginLog
+	loginLog.UserName = username
+	loginLog.LoginIp = this.Ctx.Input.IP()
+	loginLog.Origin = origin
+	loginLog.Referer = referer
+	loginLog.LoginStatus = "success"
+	loginLog.LoginResult = "SUCCESS"
+	loginLog.CreatedBy = "SYSTEM"
+	loginLog.CreatedTime = time.Now()
+	loginLog.LastUpdatedBy = "SYSTEM"
+	loginLog.LastUpdatedTime = time.Now()
+	models.AddLoginLog(loginLog)
+	// 将用户登录信息添加到 session 中去
+	this.SetSession("UserName", user.UserName)
+	sess, _ := globalSessions.SessionStart(this.Ctx.ResponseWriter, this.Ctx.Request)
+	sess.Set("ssoSessionId", sess.SessionID())
+	sess.Set("userName", user.UserName)
+	sess.Set("isLogin", "isLogin")
+	// 设置 cookie 信息
+	this.Ctx.ResponseWriter.Header().Set("Access-Control-Allow-Origin", ".isoft.com")
+	token := make(map[string]string, 10)
+	token["ssoSessionId"] = sess.SessionID()
+	token["userName"] = username
+	token["isLogin"] = "isLogin"
+	b, er := json.Marshal(token)
+	if er == nil {
+		// 使用 AES 加密算法进行加密
+		key := []byte(aes_sso_key)
+		result, err := util.AesEncrypt([]byte(string(b)), key)
+		if err == nil {
+			// 加密成功后将密文 token 添加到 cookie 中
+			this.Ctx.SetCookie("token", base64.StdEncoding.EncodeToString(result), 100, "/")
+		}
+	}
+	// 则重定向到 redirectUrl,原生的方法是：w.Header().Set("Location", "http://www.baidu.com") w.WriteHeader(301)
+	this.Redirect(referers[1], 301)
+}
+
+func ErrorAuthorizedLogin(username string, this *UserController, origin string, referer string) {
+	var loginLog models.LoginLog
+	loginLog.UserName = username
+	loginLog.LoginIp = this.Ctx.Input.IP()
+	loginLog.Origin = origin
+	loginLog.Referer = referer
+	if !CheckOrigin(origin) {
+		loginLog.LoginStatus = "origin_error"
+	} else {
+		loginLog.LoginStatus = "refer_error"
+	}
+	loginLog.LoginResult = "FAILED"
+	loginLog.CreatedBy = "SYSTEM"
+	loginLog.CreatedTime = time.Now()
+	loginLog.LastUpdatedBy = "SYSTEM"
+	loginLog.LastUpdatedTime = time.Now()
+	models.AddLoginLog(loginLog)
+	this.TplName = "403.html"
+}
+
+func ErrorAccountLogin(username string, this *UserController, origin string, referer string) {
+	var loginLog models.LoginLog
+	loginLog.UserName = username
+	loginLog.LoginIp = this.Ctx.Input.IP()
+	loginLog.Origin = origin
+	loginLog.Referer = referer
+	loginLog.LoginStatus = "account_error"
+	loginLog.LoginResult = "FAILED"
+	loginLog.CreatedBy = "SYSTEM"
+	loginLog.CreatedTime = time.Now()
+	loginLog.LastUpdatedBy = "SYSTEM"
+	loginLog.LastUpdatedTime = time.Now()
+	models.AddLoginLog(loginLog)
+	this.Data["ErrorMsg"] = "用户名或密码不正确!"
+	this.TplName = "login.html"
+}
+
+func AdminUserLogin(origin string, this *UserController, username string, referer string) {
+	if CheckOrigin(origin) { // 非跨站点
+		// 跳往管理界面
+		this.TplName = "admin.html"
+	} else {
+		ErrorAuthorizedLogin(username, this, origin, referer)
 	}
 }
 
