@@ -25,122 +25,86 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file leaf-file-name="course.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../ILearning/static/js/course/course.js">
+      <file leaf-file-name="course_list.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../ILearning/views/course/course_list.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-3199">
-              <caret line="17" column="26" lean-forward="true" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
+            <state relative-caret-position="168">
+              <caret line="7" column="67" lean-forward="true" selection-start-line="7" selection-start-column="67" selection-end-line="7" selection-end-column="67" />
               <folding>
-                <marker date="1523112036512" expanded="true" signature="3236:3262" ph="..." />
-                <marker date="1523112036512" expanded="true" signature="3368:3394" ph="..." />
-                <marker date="1523112036512" expanded="true" signature="3442:3468" ph="..." />
-                <marker date="1523112036512" expanded="true" signature="3689:3715" ph="..." />
-                <marker date="1523112036512" expanded="true" signature="3848:3874" ph="..." />
-                <marker date="1523112036512" expanded="true" signature="4008:4034" ph="..." />
-                <marker date="1523112036512" expanded="true" signature="4295:4332" ph="..." />
-                <marker date="1523112036512" expanded="true" signature="4507:4610" ph="..." />
-                <marker date="1523112036512" expanded="true" signature="5608:5635" ph="..." />
-                <marker date="1523112036512" expanded="true" signature="5772:5788" ph="..." />
-                <marker date="1523112036512" expanded="true" signature="6153:6178" ph="..." />
+                <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#h4#0;n#header#0;n#article#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#h4#0;n#header#0;n#article#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#h4#0;n#header#0;n#article#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#header#0;n#article#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#section#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#0;n#div#0;n#section#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#section#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#p#0;n#div#1;n#section#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#2;n#section#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#0;n#span#0;n#p#6;n#div#2;n#section#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#0;n#p#7;n#div#2;n#section#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#0;n#p#8;n#div#2;n#section#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#3;n#section#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#input#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#button#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#2;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#0;n#div#0;n#div#2;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#button#0;n#p#3;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="course_detail.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../ILearning/static/js/course/course_detail.js">
+      <file leaf-file-name="paging.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../ILearning/static/common/paginator/js/paging.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-679">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="-2785">
+              <caret line="37" column="25" lean-forward="false" selection-start-line="37" selection-start-column="12" selection-end-line="37" selection-end-column="25" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="course_play.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../ILearning/static/js/course/course_play.js">
+      <file leaf-file-name="page.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../ILearning/ilearning/util/page.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="593">
+              <caret line="51" column="28" lean-forward="false" selection-start-line="51" selection-start-column="18" selection-end-line="51" selection-end-column="28" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="jquery-comment.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/../ILearning/static/js/course/jquery-comment.js">
+      <file leaf-file-name="courselist.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../ILearning/static/module/homemanage/courselist/courselist.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="269">
-              <caret line="35" column="35" lean-forward="false" selection-start-line="35" selection-start-column="35" selection-end-line="35" selection-end-column="35" />
+            <state relative-caret-position="180">
+              <caret line="18" column="43" lean-forward="true" selection-start-line="18" selection-start-column="43" selection-end-line="18" selection-end-column="43" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="header.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../ILearning/static/js/header.js">
+      <file leaf-file-name="courselist.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../ILearning/static/module/homemanage/courselist/courselist.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="24">
+              <caret line="1" column="1" lean-forward="true" selection-start-line="1" selection-start-column="1" selection-end-line="1" selection-end-column="8" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="reload.min.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../ILearning/static/js/reload.min.js">
+      <file leaf-file-name="course.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../ILearning/controllers/course.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="jquery-ilearning-plugin.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../ILearning/static/js/jquery-ilearning-plugin.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="14">
-              <caret line="75" column="68" lean-forward="true" selection-start-line="75" selection-start-column="68" selection-end-line="75" selection-end-column="68" />
-              <folding>
-                <marker date="1523073139897" expanded="true" signature="5181:5187" ph=" " />
-                <marker date="1523073139897" expanded="true" signature="5322:5328" ph=" " />
-                <marker date="1523073139897" expanded="true" signature="5329:5335" ph=" " />
-                <marker date="1523073139897" expanded="true" signature="6240:6310" ph="..." />
-                <marker date="1523073139897" expanded="true" signature="6252:6264" ph="..." />
-                <marker date="1523073139897" expanded="true" signature="6690:6702" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Validate.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../ILearning/static/module/homemanage/newcourse/Validate.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Validate.form.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../ILearning/static/module/homemanage/newcourse/Validate.form.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-3367">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding>
-                <marker date="1521037424361" expanded="true" signature="1704:1714" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="note_edit.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../ILearning/static/module/note/js/note_edit.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="250">
+              <caret line="291" column="35" lean-forward="false" selection-start-line="291" selection-start-column="29" selection-end-line="291" selection-end-column="35" />
               <folding />
             </state>
           </provider>
@@ -158,9 +122,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>ILearning</find>
-      <find>_error_account_error</find>
-      <find>data</find>
       <find>CheckOrigin</find>
       <find>isLogin</find>
       <find>initDataJsonRightArr</find>
@@ -181,9 +142,20 @@
       <find>new Vue</find>
       <find>jsrender</find>
       <find>template</find>
+      <find>.push</find>
+      <find>set</find>
+      <find>$set()</find>
+      <find>callback</find>
+      <find>_this</find>
+      <find>go</find>
+      <find>bindEvent</find>
+      <find>pagecount</find>
+      <find>v-cloak</find>
+      <find>this.settings</find>
     </findStrings>
     <dirStrings>
       <dir>D:\zhourui\program\go\goland_workspace\src\ILearning\static\js</dir>
+      <dir>D:\zhourui\program\go\goland_workspace\src\ILearning</dir>
     </dirStrings>
   </component>
   <component name="GOROOT" path="$PROJECT_DIR$/../../../../../soft/install/go/go" />
@@ -237,7 +209,9 @@
         <option value="$PROJECT_DIR$/../ILearning/views/common/calendar.html" />
         <option value="$PROJECT_DIR$/../ILearning/views/note/note_view.html" />
         <option value="$PROJECT_DIR$/../ILearning/controllers/course.go" />
+        <option value="$PROJECT_DIR$/../ILearning/ilearning/util/page.go" />
         <option value="$PROJECT_DIR$/../ILearning/views/course/course_list.html" />
+        <option value="$PROJECT_DIR$/../ILearning/static/module/homemanage/courselist/courselist.js" />
       </list>
     </option>
   </component>
@@ -285,6 +259,25 @@
               <item name="Isoft_sso" type="b2602c69:ProjectViewProjectNode" />
               <item name="Isoft_sso" type="47feb1d3:ProjectViewModuleNode" />
               <item name="ILearning" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Isoft_sso" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Isoft_sso" type="47feb1d3:ProjectViewModuleNode" />
+              <item name="ILearning" type="462c0819:PsiDirectoryNode" />
+              <item name="controllers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Isoft_sso" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Isoft_sso" type="47feb1d3:ProjectViewModuleNode" />
+              <item name="ILearning" type="462c0819:PsiDirectoryNode" />
+              <item name="ilearning" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Isoft_sso" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Isoft_sso" type="47feb1d3:ProjectViewModuleNode" />
+              <item name="ILearning" type="462c0819:PsiDirectoryNode" />
+              <item name="ilearning" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Isoft_sso" type="b2602c69:ProjectViewProjectNode" />
@@ -389,7 +382,7 @@
   <component name="PropertiesComponent">
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="settings.editor.selected.configurable" value="goland.project.structure" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ILearning" />
     <property name="go.sdk.automatically.set" value="true" />
     <property name="go.vendoring.notification.had.been.shown" value="true" />
     <property name="DefaultGoTemplateProperty" value="Go File" />
@@ -546,20 +539,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../ILearning/static/json/course.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="8" column="7" lean-forward="true" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../ILearning/models/common.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-572">
-          <caret line="16" column="36" lean-forward="true" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../github.com/astaxie/beego/router.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
@@ -697,16 +676,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../ILearning/ilearning/util/page.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="5" column="5" lean-forward="false" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
-          <folding>
-            <element signature="e#14#27#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../github.com/astaxie/beego/utils/pagination/paginator.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="269">
@@ -755,31 +724,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../ILearning/controllers/course.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="401">
-          <caret line="321" column="23" lean-forward="false" selection-start-line="321" selection-start-column="14" selection-end-line="321" selection-end-column="23" />
-          <folding>
-            <element signature="e#21#232#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../ILearning/static/common/paginator/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="377">
           <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="22" selection-end-column="8" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../ILearning/static/common/paginator/js/paging.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1338">
-          <caret line="40" column="23" lean-forward="false" selection-start-line="40" selection-start-column="16" selection-end-line="40" selection-end-column="23" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -807,30 +756,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../ILearning/views/course.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="488">
-          <caret line="50" column="31" lean-forward="false" selection-start-line="50" selection-start-column="25" selection-end-line="50" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../ILearning/views/course/course_list.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="4" column="77" lean-forward="false" selection-start-line="4" selection-start-column="77" selection-end-line="4" selection-end-column="77" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../ILearning/static/module/homemanage/courselist/courselist.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3343">
-          <caret line="5" column="57" lean-forward="true" selection-start-line="5" selection-start-column="57" selection-end-line="5" selection-end-column="57" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../ILearning/static/module/homemanage/newcourse/Validate.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -854,26 +779,6 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../ILearning/static/js/course/course.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3199">
-          <caret line="17" column="26" lean-forward="true" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
-          <folding>
-            <marker date="1523112036512" expanded="true" signature="3236:3262" ph="..." />
-            <marker date="1523112036512" expanded="true" signature="3368:3394" ph="..." />
-            <marker date="1523112036512" expanded="true" signature="3442:3468" ph="..." />
-            <marker date="1523112036512" expanded="true" signature="3689:3715" ph="..." />
-            <marker date="1523112036512" expanded="true" signature="3848:3874" ph="..." />
-            <marker date="1523112036512" expanded="true" signature="4008:4034" ph="..." />
-            <marker date="1523112036512" expanded="true" signature="4295:4332" ph="..." />
-            <marker date="1523112036512" expanded="true" signature="4507:4610" ph="..." />
-            <marker date="1523112036512" expanded="true" signature="5608:5635" ph="..." />
-            <marker date="1523112036512" expanded="true" signature="5772:5788" ph="..." />
-            <marker date="1523112036512" expanded="true" signature="6153:6178" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -924,10 +829,119 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../ILearning/views/course.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="488">
+          <caret line="50" column="31" lean-forward="false" selection-start-line="50" selection-start-column="25" selection-end-line="50" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/../ILearning/static/js/course/jquery-comment.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="269">
+        <state relative-caret-position="526">
           <caret line="35" column="35" lean-forward="false" selection-start-line="35" selection-start-column="35" selection-end-line="35" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ILearning/views/course/course_comment.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="20" column="27" lean-forward="false" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ILearning/controllers/course.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="291" column="35" lean-forward="false" selection-start-line="291" selection-start-column="29" selection-end-line="291" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ILearning/static/js/course/course.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="269">
+          <caret line="56" column="18" lean-forward="false" selection-start-line="56" selection-start-column="18" selection-end-line="56" selection-end-column="18" />
+          <folding>
+            <marker date="1523112036512" expanded="true" signature="3236:3262" ph="..." />
+            <marker date="1523112036512" expanded="true" signature="3368:3394" ph="..." />
+            <marker date="1523112036512" expanded="true" signature="3442:3468" ph="..." />
+            <marker date="1523112036512" expanded="true" signature="3689:3715" ph="..." />
+            <marker date="1523112036512" expanded="true" signature="3848:3874" ph="..." />
+            <marker date="1523112036512" expanded="true" signature="4008:4034" ph="..." />
+            <marker date="1523112036512" expanded="true" signature="4295:4332" ph="..." />
+            <marker date="1523112036512" expanded="true" signature="4507:4610" ph="..." />
+            <marker date="1523112036512" expanded="true" signature="5608:5635" ph="..." />
+            <marker date="1523112036512" expanded="true" signature="5772:5788" ph="..." />
+            <marker date="1523112036512" expanded="true" signature="6153:6178" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ILearning/static/module/homemanage/courselist/courselist.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="1" column="1" lean-forward="true" selection-start-line="1" selection-start-column="1" selection-end-line="1" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ILearning/ilearning/util/page.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="593">
+          <caret line="51" column="28" lean-forward="false" selection-start-line="51" selection-start-column="18" selection-end-line="51" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ILearning/views/course/course_list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="7" column="67" lean-forward="true" selection-start-line="7" selection-start-column="67" selection-end-line="7" selection-end-column="67" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h4#0;n#header#0;n#article#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#h4#0;n#header#0;n#article#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#h4#0;n#header#0;n#article#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#header#0;n#article#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#section#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#0;n#section#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#section#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#div#1;n#section#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#section#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#span#0;n#p#6;n#div#2;n#section#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#p#7;n#div#2;n#section#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#p#8;n#div#2;n#section#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#3;n#section#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#button#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#2;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#0;n#div#2;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#button#0;n#p#3;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ILearning/static/common/paginator/js/paging.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2785">
+          <caret line="37" column="25" lean-forward="false" selection-start-line="37" selection-start-column="12" selection-end-line="37" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ILearning/static/module/homemanage/courselist/courselist.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="18" column="43" lean-forward="true" selection-start-line="18" selection-start-column="43" selection-end-line="18" selection-end-column="43" />
           <folding />
         </state>
       </provider>
