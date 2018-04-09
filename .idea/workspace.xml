@@ -3,6 +3,617 @@
   <component name="ChangeListManager">
     <list default="true" id="699a1250-18c5-405c-a8b8-9a683e0882a7" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/static/common/AmazeUI-2.7.2/admin-404.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/AmazeUI-2.7.2/admin-form.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/AmazeUI-2.7.2/admin-gallery.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/AmazeUI-2.7.2/admin-help.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/AmazeUI-2.7.2/admin-index.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/AmazeUI-2.7.2/admin-log.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/AmazeUI-2.7.2/admin-table.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/AmazeUI-2.7.2/admin-user.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/AmazeUI-2.7.2/assets/css/admin.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/AmazeUI-2.7.2/assets/css/amazeui.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/AmazeUI-2.7.2/assets/css/amazeui.flat.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/AmazeUI-2.7.2/assets/css/amazeui.flat.min.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/AmazeUI-2.7.2/assets/css/amazeui.min.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/AmazeUI-2.7.2/assets/css/app.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/AmazeUI-2.7.2/assets/fonts/FontAwesome.otf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/AmazeUI-2.7.2/assets/fonts/fontawesome-webfont.eot" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/AmazeUI-2.7.2/assets/fonts/fontawesome-webfont.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/AmazeUI-2.7.2/assets/fonts/fontawesome-webfont.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/AmazeUI-2.7.2/assets/fonts/fontawesome-webfont.woff2" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/AmazeUI-2.7.2/assets/i/app-icon72x72@2x.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/AmazeUI-2.7.2/assets/i/examples/admin-chrome.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/AmazeUI-2.7.2/assets/i/examples/admin-firefox.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/AmazeUI-2.7.2/assets/i/examples/admin-ie.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/AmazeUI-2.7.2/assets/i/examples/admin-opera.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/AmazeUI-2.7.2/assets/i/examples/admin-safari.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/AmazeUI-2.7.2/assets/i/examples/adminPage.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/AmazeUI-2.7.2/assets/i/examples/blogPage.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/AmazeUI-2.7.2/assets/i/examples/landing.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/AmazeUI-2.7.2/assets/i/examples/landingPage.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/AmazeUI-2.7.2/assets/i/examples/loginPage.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/AmazeUI-2.7.2/assets/i/examples/sidebarPage.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/AmazeUI-2.7.2/assets/i/favicon.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/AmazeUI-2.7.2/assets/i/startup-640x1096.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/AmazeUI-2.7.2/assets/js/amazeui.ie8polyfill.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/AmazeUI-2.7.2/assets/js/amazeui.ie8polyfill.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/AmazeUI-2.7.2/assets/js/amazeui.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/AmazeUI-2.7.2/assets/js/amazeui.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/AmazeUI-2.7.2/assets/js/amazeui.widgets.helper.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/AmazeUI-2.7.2/assets/js/amazeui.widgets.helper.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/AmazeUI-2.7.2/assets/js/app.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/AmazeUI-2.7.2/assets/js/handlebars.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/AmazeUI-2.7.2/blog.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/AmazeUI-2.7.2/index.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/AmazeUI-2.7.2/iscroll.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/AmazeUI-2.7.2/landing.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/AmazeUI-2.7.2/login.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/AmazeUI-2.7.2/non-responsive.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/AmazeUI-2.7.2/sidebar.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/AmazeUI-2.7.2/widget.basic.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/AmazeUI-2.7.2/widget.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/alert_info/css/bootstrap.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/alert_info/css/component.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/alert_info/index.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/alert_info/js/classie.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/alert_info/js/modalEffects.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/alert_info/说明.htm" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/alert_info/说明.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/CHANGES.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/LICENSE.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/adapters/jquery.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/ckeditor.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/config.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/contents.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/contents_adjust.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/lang/_translationstatus.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/lang/af.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/lang/ar.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/lang/az.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/lang/bg.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/lang/bn.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/lang/bs.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/lang/ca.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/lang/cs.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/lang/cy.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/lang/da.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/lang/de-ch.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/lang/de.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/lang/el.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/lang/en-au.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/lang/en-ca.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/lang/en-gb.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/lang/en.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/lang/eo.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/lang/es-mx.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/lang/es.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/lang/et.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/lang/eu.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/lang/fa.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/lang/fi.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/lang/fo.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/lang/fr-ca.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/lang/fr.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/lang/gl.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/lang/gu.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/lang/he.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/lang/hi.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/lang/hr.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/lang/hu.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/lang/id.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/lang/is.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/lang/it.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/lang/ja.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/lang/ka.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/lang/km.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/lang/ko.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/lang/ku.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/lang/lt.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/lang/lv.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/lang/mk.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/lang/mn.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/lang/ms.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/lang/nb.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/lang/nl.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/lang/no.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/lang/oc.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/lang/pl.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/lang/pt-br.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/lang/pt.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/lang/ro.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/lang/ru.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/lang/si.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/lang/sk.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/lang/sl.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/lang/sq.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/lang/sr-latn.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/lang/sr.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/lang/sv.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/lang/th.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/lang/tr.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/lang/tt.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/lang/ug.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/lang/uk.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/lang/vi.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/lang/zh-cn.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/lang/zh.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/plugins/a11yhelp/dialogs/a11yhelp.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/plugins/a11yhelp/dialogs/lang/_translationstatus.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/plugins/a11yhelp/dialogs/lang/af.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/plugins/a11yhelp/dialogs/lang/ar.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/plugins/a11yhelp/dialogs/lang/az.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/plugins/a11yhelp/dialogs/lang/bg.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/plugins/a11yhelp/dialogs/lang/ca.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/plugins/a11yhelp/dialogs/lang/cs.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/plugins/a11yhelp/dialogs/lang/cy.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/plugins/a11yhelp/dialogs/lang/da.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/plugins/a11yhelp/dialogs/lang/de-ch.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/plugins/a11yhelp/dialogs/lang/de.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/plugins/a11yhelp/dialogs/lang/el.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/plugins/a11yhelp/dialogs/lang/en-au.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/plugins/a11yhelp/dialogs/lang/en-gb.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/plugins/a11yhelp/dialogs/lang/en.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/plugins/a11yhelp/dialogs/lang/eo.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/plugins/a11yhelp/dialogs/lang/es-mx.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/plugins/a11yhelp/dialogs/lang/es.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/plugins/a11yhelp/dialogs/lang/et.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/plugins/a11yhelp/dialogs/lang/eu.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/plugins/a11yhelp/dialogs/lang/fa.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/plugins/a11yhelp/dialogs/lang/fi.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/plugins/a11yhelp/dialogs/lang/fo.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/plugins/a11yhelp/dialogs/lang/fr-ca.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/plugins/a11yhelp/dialogs/lang/fr.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/plugins/a11yhelp/dialogs/lang/gl.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/plugins/a11yhelp/dialogs/lang/gu.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/plugins/a11yhelp/dialogs/lang/he.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/plugins/a11yhelp/dialogs/lang/hi.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/plugins/a11yhelp/dialogs/lang/hr.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/plugins/a11yhelp/dialogs/lang/hu.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/plugins/a11yhelp/dialogs/lang/id.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/plugins/a11yhelp/dialogs/lang/it.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/plugins/a11yhelp/dialogs/lang/ja.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/plugins/a11yhelp/dialogs/lang/km.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/plugins/a11yhelp/dialogs/lang/ko.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/plugins/a11yhelp/dialogs/lang/ku.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/plugins/a11yhelp/dialogs/lang/lt.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/plugins/a11yhelp/dialogs/lang/lv.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/plugins/a11yhelp/dialogs/lang/mk.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/plugins/a11yhelp/dialogs/lang/mn.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/plugins/a11yhelp/dialogs/lang/nb.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/plugins/a11yhelp/dialogs/lang/nl.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/plugins/a11yhelp/dialogs/lang/no.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/plugins/a11yhelp/dialogs/lang/oc.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/plugins/a11yhelp/dialogs/lang/pl.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/plugins/a11yhelp/dialogs/lang/pt-br.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/plugins/a11yhelp/dialogs/lang/pt.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/plugins/a11yhelp/dialogs/lang/ro.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/plugins/a11yhelp/dialogs/lang/ru.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/plugins/a11yhelp/dialogs/lang/si.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/plugins/a11yhelp/dialogs/lang/sk.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/plugins/a11yhelp/dialogs/lang/sl.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/plugins/a11yhelp/dialogs/lang/sq.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/plugins/a11yhelp/dialogs/lang/sr-latn.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/plugins/a11yhelp/dialogs/lang/sr.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/plugins/a11yhelp/dialogs/lang/sv.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/plugins/a11yhelp/dialogs/lang/th.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/plugins/a11yhelp/dialogs/lang/tr.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/plugins/a11yhelp/dialogs/lang/tt.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/plugins/a11yhelp/dialogs/lang/ug.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/plugins/a11yhelp/dialogs/lang/uk.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/plugins/a11yhelp/dialogs/lang/vi.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/plugins/a11yhelp/dialogs/lang/zh-cn.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/plugins/a11yhelp/dialogs/lang/zh.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/plugins/about/dialogs/about.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/plugins/about/dialogs/hidpi/logo_ckeditor.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/plugins/about/dialogs/logo_ckeditor.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/plugins/clipboard/dialogs/paste.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/plugins/dialog/dialogDefinition.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/plugins/icons.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/plugins/icons_hidpi.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/plugins/image/dialogs/image.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/plugins/image/images/noimage.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/plugins/link/dialogs/anchor.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/plugins/link/dialogs/link.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/plugins/link/images/anchor.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/plugins/link/images/hidpi/anchor.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/plugins/magicline/images/hidpi/icon-rtl.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/plugins/magicline/images/hidpi/icon.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/plugins/magicline/images/icon-rtl.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/plugins/magicline/images/icon.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/plugins/pastefromword/filter/default.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/plugins/scayt/CHANGELOG.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/plugins/scayt/LICENSE.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/plugins/scayt/dialogs/dialog.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/plugins/scayt/dialogs/options.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/plugins/scayt/dialogs/toolbar.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/plugins/scayt/skins/moono-lisa/scayt.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/plugins/specialchar/dialogs/lang/_translationstatus.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/plugins/specialchar/dialogs/lang/af.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/plugins/specialchar/dialogs/lang/ar.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/plugins/specialchar/dialogs/lang/az.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/plugins/specialchar/dialogs/lang/bg.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/plugins/specialchar/dialogs/lang/ca.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/plugins/specialchar/dialogs/lang/cs.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/plugins/specialchar/dialogs/lang/cy.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/plugins/specialchar/dialogs/lang/da.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/plugins/specialchar/dialogs/lang/de-ch.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/plugins/specialchar/dialogs/lang/de.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/plugins/specialchar/dialogs/lang/el.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/plugins/specialchar/dialogs/lang/en-au.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/plugins/specialchar/dialogs/lang/en-ca.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/plugins/specialchar/dialogs/lang/en-gb.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/plugins/specialchar/dialogs/lang/en.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/plugins/specialchar/dialogs/lang/eo.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/plugins/specialchar/dialogs/lang/es-mx.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/plugins/specialchar/dialogs/lang/es.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/plugins/specialchar/dialogs/lang/et.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/plugins/specialchar/dialogs/lang/eu.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/plugins/specialchar/dialogs/lang/fa.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/plugins/specialchar/dialogs/lang/fi.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/plugins/specialchar/dialogs/lang/fr-ca.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/plugins/specialchar/dialogs/lang/fr.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/plugins/specialchar/dialogs/lang/gl.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/plugins/specialchar/dialogs/lang/he.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/plugins/specialchar/dialogs/lang/hr.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/plugins/specialchar/dialogs/lang/hu.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/plugins/specialchar/dialogs/lang/id.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/plugins/specialchar/dialogs/lang/it.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/plugins/specialchar/dialogs/lang/ja.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/plugins/specialchar/dialogs/lang/km.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/plugins/specialchar/dialogs/lang/ko.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/plugins/specialchar/dialogs/lang/ku.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/plugins/specialchar/dialogs/lang/lt.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/plugins/specialchar/dialogs/lang/lv.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/plugins/specialchar/dialogs/lang/nb.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/plugins/specialchar/dialogs/lang/nl.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/plugins/specialchar/dialogs/lang/no.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/plugins/specialchar/dialogs/lang/oc.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/plugins/specialchar/dialogs/lang/pl.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/plugins/specialchar/dialogs/lang/pt-br.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/plugins/specialchar/dialogs/lang/pt.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/plugins/specialchar/dialogs/lang/ro.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/plugins/specialchar/dialogs/lang/ru.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/plugins/specialchar/dialogs/lang/si.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/plugins/specialchar/dialogs/lang/sk.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/plugins/specialchar/dialogs/lang/sl.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/plugins/specialchar/dialogs/lang/sq.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/plugins/specialchar/dialogs/lang/sv.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/plugins/specialchar/dialogs/lang/th.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/plugins/specialchar/dialogs/lang/tr.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/plugins/specialchar/dialogs/lang/tt.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/plugins/specialchar/dialogs/lang/ug.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/plugins/specialchar/dialogs/lang/uk.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/plugins/specialchar/dialogs/lang/vi.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/plugins/specialchar/dialogs/lang/zh-cn.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/plugins/specialchar/dialogs/lang/zh.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/plugins/specialchar/dialogs/specialchar.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/plugins/table/dialogs/table.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/plugins/tableselection/styles/tableselection.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/plugins/tabletools/dialogs/tableCell.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/plugins/widget/images/handle.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/plugins/wsc/LICENSE.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/plugins/wsc/dialogs/ciframe.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/plugins/wsc/dialogs/tmpFrameset.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/plugins/wsc/dialogs/wsc.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/plugins/wsc/dialogs/wsc.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/plugins/wsc/dialogs/wsc_ie.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/plugins/wsc/skins/moono-lisa/wsc.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/samples/css/samples.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/samples/img/github-top.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/samples/img/header-bg.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/samples/img/header-separator.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/samples/img/logo.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/samples/img/logo.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/samples/img/navigation-tip.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/samples/index.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/samples/js/sample.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/samples/js/sf.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/samples/old/ajax.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/samples/old/api.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/samples/old/appendto.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/samples/old/assets/inlineall/logo.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/samples/old/assets/outputxhtml/outputxhtml.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/samples/old/assets/posteddata.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/samples/old/assets/sample.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/samples/old/assets/uilanguages/languages.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/samples/old/datafiltering.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/samples/old/dialog/assets/my_dialog.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/samples/old/dialog/dialog.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/samples/old/divreplace.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/samples/old/enterkey/enterkey.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/samples/old/htmlwriter/assets/outputforflash/outputforflash.fla" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/samples/old/htmlwriter/assets/outputforflash/outputforflash.swf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/samples/old/htmlwriter/assets/outputforflash/swfobject.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/samples/old/htmlwriter/outputforflash.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/samples/old/htmlwriter/outputhtml.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/samples/old/index.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/samples/old/inlineall.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/samples/old/inlinebycode.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/samples/old/inlinetextarea.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/samples/old/jquery.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/samples/old/magicline/magicline.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/samples/old/readonly.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/samples/old/replacebyclass.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/samples/old/replacebycode.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/samples/old/sample.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/samples/old/sample.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/samples/old/sample_posteddata.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/samples/old/tabindex.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/samples/old/toolbar/toolbar.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/samples/old/uicolor.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/samples/old/uilanguages.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/samples/old/wysiwygarea/fullpage.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/samples/old/xhtmlstyle.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/samples/toolbarconfigurator/css/fontello.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/samples/toolbarconfigurator/font/LICENSE.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/samples/toolbarconfigurator/font/config.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/samples/toolbarconfigurator/font/fontello.eot" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/samples/toolbarconfigurator/font/fontello.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/samples/toolbarconfigurator/font/fontello.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/samples/toolbarconfigurator/font/fontello.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/samples/toolbarconfigurator/index.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/samples/toolbarconfigurator/js/abstracttoolbarmodifier.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/samples/toolbarconfigurator/js/fulltoolbareditor.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/samples/toolbarconfigurator/js/toolbarmodifier.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/samples/toolbarconfigurator/js/toolbartextmodifier.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/samples/toolbarconfigurator/lib/codemirror/LICENSE" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/samples/toolbarconfigurator/lib/codemirror/codemirror.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/samples/toolbarconfigurator/lib/codemirror/codemirror.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/samples/toolbarconfigurator/lib/codemirror/javascript.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/samples/toolbarconfigurator/lib/codemirror/neo.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/samples/toolbarconfigurator/lib/codemirror/show-hint.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/samples/toolbarconfigurator/lib/codemirror/show-hint.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/skins/moono-lisa/dialog.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/skins/moono-lisa/dialog_ie.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/skins/moono-lisa/dialog_ie8.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/skins/moono-lisa/dialog_iequirks.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/skins/moono-lisa/editor.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/skins/moono-lisa/editor_gecko.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/skins/moono-lisa/editor_ie.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/skins/moono-lisa/editor_ie8.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/skins/moono-lisa/editor_iequirks.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/skins/moono-lisa/icons.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/skins/moono-lisa/icons_hidpi.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/skins/moono-lisa/images/arrow.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/skins/moono-lisa/images/close.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/skins/moono-lisa/images/hidpi/close.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/skins/moono-lisa/images/hidpi/lock-open.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/skins/moono-lisa/images/hidpi/lock.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/skins/moono-lisa/images/hidpi/refresh.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/skins/moono-lisa/images/lock-open.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/skins/moono-lisa/images/lock.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/skins/moono-lisa/images/refresh.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/skins/moono-lisa/images/spinner.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/skins/moono-lisa/readme.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ckeditor/styles.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/flowchart/images/ztb_active-6.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/flowchart/images/ztb_active.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/flowchart/images/ztb_down.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/flowchart/images/ztb_gx.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/flowchart/images/ztb_gx1.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/flowchart/images/ztb_gx2.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/flowchart/images/ztb_lc.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/flowchart/images/ztb_sel.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/flowchart/images/ztb_up.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/flowchart/js/jquery-1.9.1.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/flowchart/styles/css.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ilearning_form/css/style.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ilearning_form/images/pwdstrength.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ilearning_form/images/yellow_button.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ilearning_form/index.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ilearning_form/js/Validate.form.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ilearning_form/js/Validate.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ilearning_form/js/jquery.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ilearning_form/说明.htm" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/ilearning_form/说明.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/imgscanner/css/htmleaf-demo.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/imgscanner/css/normalize.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/imgscanner/css/reset.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/imgscanner/css/style.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/imgscanner/dist/easySlider.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/imgscanner/dist/easySlider.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/imgscanner/dist/jquery.boilerplate.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/imgscanner/dist/jquery.boilerplate.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/imgscanner/img/1.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/imgscanner/img/2.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/imgscanner/img/3.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/imgscanner/img/4.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/imgscanner/img/next.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/imgscanner/img/prev.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/imgscanner/index.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/imgscanner/js/jquery-2.1.1.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/imgscanner/说明.htm" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/jquery_popover/.gitignore" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/jquery_popover/.jshintrc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/jquery_popover/.npmignore" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/jquery_popover/CONTRIBUTING.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/jquery_popover/Gruntfile.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/jquery_popover/HISTORY.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/jquery_popover/LICENSE.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/jquery_popover/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/jquery_popover/ROADMAP.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/jquery_popover/bower.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/jquery_popover/demo/async-content-another.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/jquery_popover/demo/async-content.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/jquery_popover/demo/bootstrap.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/jquery_popover/demo/bootstrap.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/jquery_popover/demo/demo.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/jquery_popover/demo/index-dev.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/jquery_popover/demo/index-old.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/jquery_popover/demo/index.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/jquery_popover/demo/jquery.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/jquery_popover/demo/mobile.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/jquery_popover/demo/table-data.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/jquery_popover/demo/test-auto-bottom.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/jquery_popover/demo/test-body-height.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/jquery_popover/demo/test-cache.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/jquery_popover/demo/test-canvas.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/jquery_popover/demo/test-container-scroll-fix.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/jquery_popover/demo/test-container-scroll.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/jquery_popover/demo/test-container.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/jquery_popover/demo/test-global-api.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/jquery_popover/demo/test-issue193.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/jquery_popover/demo/test-issue195.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/jquery_popover/demo/test-issue197.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/jquery_popover/demo/test-issue214.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/jquery_popover/demo/test-manual-show-bug.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/jquery_popover/demo/test-svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/jquery_popover/demo/test-wenzhixin-bstable.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/jquery_popover/demo/test.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/jquery_popover/demo/text.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/jquery_popover/dist/jquery.webui-popover.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/jquery_popover/dist/jquery.webui-popover.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/jquery_popover/dist/jquery.webui-popover.min.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/jquery_popover/dist/jquery.webui-popover.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/jquery_popover/fonts/glyphicons-halflings-regular.eot" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/jquery_popover/fonts/glyphicons-halflings-regular.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/jquery_popover/fonts/glyphicons-halflings-regular.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/jquery_popover/fonts/glyphicons-halflings-regular.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/jquery_popover/img/loading.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/jquery_popover/package.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/jquery_popover/src/jquery.webui-popover.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/jquery_popover/src/jquery.webui-popover.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/jquery_popover/src/jquery.webui-popover.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/jquery_popover/webui-popover.jquery.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/jsrender.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/leftnav/css/font-awesome.min.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/leftnav/css/leftnav.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/leftnav/fonts/fontawesome-webfont.eot" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/leftnav/fonts/fontawesome-webfont.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/leftnav/fonts/fontawesome-webfont.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/leftnav/fonts/fontawesome-webfont.woff2" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/leftnav/index.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/leftnav/js/jquery.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/leftnav/js/leftnav.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/leftnav/说明.htm" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/leftnav/说明.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/raty-2.8.0/.gitignore" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/raty-2.8.0/.travis.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/raty-2.8.0/LICENSE" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/raty-2.8.0/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/raty-2.8.0/bower.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/raty-2.8.0/changelog.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/raty-2.8.0/composer.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/raty-2.8.0/demo/favicon.ico" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/raty-2.8.0/demo/fonts/wbotelhos.eot" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/raty-2.8.0/demo/fonts/wbotelhos.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/raty-2.8.0/demo/fonts/wbotelhos.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/raty-2.8.0/demo/fonts/wbotelhos.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/raty-2.8.0/demo/images/0.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/raty-2.8.0/demo/images/1.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/raty-2.8.0/demo/images/2.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/raty-2.8.0/demo/images/3.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/raty-2.8.0/demo/images/4.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/raty-2.8.0/demo/images/5.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/raty-2.8.0/demo/images/cancel-custom-off.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/raty-2.8.0/demo/images/cancel-custom-on.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/raty-2.8.0/demo/images/cancel-off.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/raty-2.8.0/demo/images/cancel-on.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/raty-2.8.0/demo/images/off.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/raty-2.8.0/demo/images/on.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/raty-2.8.0/demo/images/star-half-mono.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/raty-2.8.0/demo/images/star-half.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/raty-2.8.0/demo/images/star-off.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/raty-2.8.0/demo/images/star-on.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/raty-2.8.0/demo/index.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/raty-2.8.0/demo/javascripts/labs.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/raty-2.8.0/demo/stylesheets/labs.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/raty-2.8.0/lib/fonts/raty.eot" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/raty-2.8.0/lib/fonts/raty.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/raty-2.8.0/lib/fonts/raty.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/raty-2.8.0/lib/fonts/raty.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/raty-2.8.0/lib/images/cancel-off.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/raty-2.8.0/lib/images/cancel-on.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/raty-2.8.0/lib/images/star-half.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/raty-2.8.0/lib/images/star-off.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/raty-2.8.0/lib/images/star-on.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/raty-2.8.0/lib/jquery.raty.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/raty-2.8.0/lib/jquery.raty.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/raty-2.8.0/package-lock.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/raty-2.8.0/package.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/raty-2.8.0/spec/cancel_class_spec.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/raty-2.8.0/spec/cancel_hint_spec.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/raty-2.8.0/spec/cancel_off_spec.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/raty-2.8.0/spec/cancel_on_spec.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/raty-2.8.0/spec/cancel_place_spec.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/raty-2.8.0/spec/cancel_spec.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/raty-2.8.0/spec/click_spec.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/raty-2.8.0/spec/common_spec.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/raty-2.8.0/spec/fn_cancel_spec.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/raty-2.8.0/spec/fn_move_spec.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/raty-2.8.0/spec/fn_readonly_spec.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/raty-2.8.0/spec/fn_set_score_spec.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/raty-2.8.0/spec/fn_set_spec.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/raty-2.8.0/spec/get_first_decimal_spec.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/raty-2.8.0/spec/half_spec.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/raty-2.8.0/spec/hints_spec.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/raty-2.8.0/spec/karma.conf.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/raty-2.8.0/spec/lib/boot.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/raty-2.8.0/spec/lib/helper.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/raty-2.8.0/spec/lib/jasmine-html.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/raty-2.8.0/spec/lib/jasmine-jquery.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/raty-2.8.0/spec/lib/jasmine.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/raty-2.8.0/spec/lib/jasmine.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/raty-2.8.0/spec/mouseout_spec.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/raty-2.8.0/spec/mouseover_spec.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/raty-2.8.0/spec/number_max_spec.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/raty-2.8.0/spec/number_spec.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/raty-2.8.0/spec/options_spec.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/raty-2.8.0/spec/path_spec.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/raty-2.8.0/spec/precision_spec.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/raty-2.8.0/spec/readonly_spec.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/raty-2.8.0/spec/run.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/raty-2.8.0/spec/score_name_spec.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/raty-2.8.0/spec/score_spec.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/raty-2.8.0/spec/spec.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/raty-2.8.0/spec/star_off_spec.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/raty-2.8.0/spec/star_on_spec.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/raty-2.8.0/spec/star_type_spec.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/raty-2.8.0/spec/stars_spec.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/raty-2.8.0/spec/target_spec.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/raty-2.8.0/spec/target_type_spec.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/raty-2.8.0/vendor/jquery.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/rightmenu/fonts/icomoon.eot" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/rightmenu/fonts/icomoon.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/rightmenu/fonts/icomoon.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/rightmenu/fonts/icomoon.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/rightmenu/images/02index-2.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/rightmenu/images/02index-banner-8.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/rightmenu/images/arrow.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/rightmenu/images/q1.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/rightmenu/index.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/rightmenu/js/jquery-1.4.2.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/rightmenu/说明.htm" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/rightmenu/说明.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/tabfolder/index.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/tabfolder/js/jquery-1.7.2.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/tabfolder/js/tab.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/tabfolder/style/common.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/tabfolder/style/style.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/tabfolder/说明.htm" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/tabfolder/说明.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/toggle_message/css/style.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/toggle_message/index.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/toggle_message/js/index.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/toggle_message/js/jquery.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/toggle_message/说明.htm" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/toggle_message/说明.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/common/vue.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/css/course/course.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/json/course.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/module/homemanage/courselist/courselist.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/module/homemanage/courselist/courselist.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/module/homemanage/css/style.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/module/homemanage/images/pwdstrength.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/module/homemanage/images/yellow_button.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/module/homemanage/newcourse/Validate.form.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/module/homemanage/newcourse/Validate.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/module/note/css/style.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/module/note/js/Validate.form.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/module/note/js/Validate.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/module/note/js/note_edit.js" afterPath="" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -28,53 +639,18 @@
       <file leaf-file-name="course_list.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../ILearning/views/course/course_list.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="7" column="67" lean-forward="true" selection-start-line="7" selection-start-column="67" selection-end-line="7" selection-end-column="67" />
-              <folding>
-                <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#h4#0;n#header#0;n#article#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#h4#0;n#header#0;n#article#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#h4#0;n#header#0;n#article#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#header#0;n#article#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#section#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#a#0;n#div#0;n#section#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#section#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#p#0;n#div#1;n#section#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#2;n#section#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#a#0;n#span#0;n#p#6;n#div#2;n#section#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#a#0;n#p#7;n#div#2;n#section#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#a#0;n#p#8;n#div#2;n#section#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#3;n#section#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#input#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#button#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#2;n#div#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#a#0;n#div#0;n#div#2;n#div#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#button#0;n#p#3;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="paging.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../ILearning/static/common/paginator/js/paging.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2785">
-              <caret line="37" column="25" lean-forward="false" selection-start-line="37" selection-start-column="12" selection-end-line="37" selection-end-column="25" />
+            <state relative-caret-position="216">
+              <caret line="9" column="78" lean-forward="false" selection-start-line="9" selection-start-column="78" selection-end-line="9" selection-end-column="78" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="page.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../ILearning/ilearning/util/page.go">
+      <file leaf-file-name="router.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../ILearning/routers/router.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="593">
-              <caret line="51" column="28" lean-forward="false" selection-start-line="51" selection-start-column="18" selection-end-line="51" selection-end-column="28" />
+            <state relative-caret-position="504">
+              <caret line="25" column="56" lean-forward="false" selection-start-line="25" selection-start-column="56" selection-end-line="25" selection-end-column="56" />
               <folding />
             </state>
           </provider>
@@ -83,28 +659,8 @@
       <file leaf-file-name="courselist.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../ILearning/static/module/homemanage/courselist/courselist.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="18" column="43" lean-forward="true" selection-start-line="18" selection-start-column="43" selection-end-line="18" selection-end-column="43" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="courselist.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../ILearning/static/module/homemanage/courselist/courselist.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="24">
-              <caret line="1" column="1" lean-forward="true" selection-start-line="1" selection-start-column="1" selection-end-line="1" selection-end-column="8" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="course.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../ILearning/controllers/course.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="291" column="35" lean-forward="false" selection-start-line="291" selection-start-column="29" selection-end-line="291" selection-end-column="35" />
+            <state relative-caret-position="125">
+              <caret line="11" column="7" lean-forward="false" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -122,14 +678,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>CheckOrigin</find>
-      <find>isLogin</find>
-      <find>initDataJsonRightArr</find>
-      <find>submit</find>
-      <find>ValuesFlat</find>
-      <find>Play</find>
-      <find>course_number</find>
-      <find>Recommends</find>
       <find>Show</find>
       <find>_fun_time</find>
       <find>vedio</find>
@@ -152,6 +700,14 @@
       <find>pagecount</find>
       <find>v-cloak</find>
       <find>this.settings</find>
+      <find>focus</find>
+      <find>querySelector</find>
+      <find>course/courselist</find>
+      <find>CourseList</find>
+      <find>md-trigger</find>
+      <find>pageTool</find>
+      <find>.md-overlay</find>
+      <find>course_list</find>
     </findStrings>
     <dirStrings>
       <dir>D:\zhourui\program\go\goland_workspace\src\ILearning\static\js</dir>
@@ -210,8 +766,10 @@
         <option value="$PROJECT_DIR$/../ILearning/views/note/note_view.html" />
         <option value="$PROJECT_DIR$/../ILearning/controllers/course.go" />
         <option value="$PROJECT_DIR$/../ILearning/ilearning/util/page.go" />
-        <option value="$PROJECT_DIR$/../ILearning/views/course/course_list.html" />
         <option value="$PROJECT_DIR$/../ILearning/static/module/homemanage/courselist/courselist.js" />
+        <option value="$PROJECT_DIR$/../ILearning/static/common/paginator/css/paging.css" />
+        <option value="$PROJECT_DIR$/static/module/homemanage/courselist/courselist.js" />
+        <option value="$PROJECT_DIR$/../ILearning/views/course/course_list.html" />
       </list>
     </option>
   </component>
@@ -255,150 +813,34 @@
               <item name="Isoft_sso" type="b2602c69:ProjectViewProjectNode" />
               <item name="Isoft_sso" type="47feb1d3:ProjectViewModuleNode" />
             </path>
-            <path>
-              <item name="Isoft_sso" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Isoft_sso" type="47feb1d3:ProjectViewModuleNode" />
-              <item name="ILearning" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Isoft_sso" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Isoft_sso" type="47feb1d3:ProjectViewModuleNode" />
-              <item name="ILearning" type="462c0819:PsiDirectoryNode" />
-              <item name="controllers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Isoft_sso" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Isoft_sso" type="47feb1d3:ProjectViewModuleNode" />
-              <item name="ILearning" type="462c0819:PsiDirectoryNode" />
-              <item name="ilearning" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Isoft_sso" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Isoft_sso" type="47feb1d3:ProjectViewModuleNode" />
-              <item name="ILearning" type="462c0819:PsiDirectoryNode" />
-              <item name="ilearning" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Isoft_sso" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Isoft_sso" type="47feb1d3:ProjectViewModuleNode" />
-              <item name="ILearning" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Isoft_sso" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Isoft_sso" type="47feb1d3:ProjectViewModuleNode" />
-              <item name="ILearning" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Isoft_sso" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Isoft_sso" type="47feb1d3:ProjectViewModuleNode" />
-              <item name="ILearning" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="module" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Isoft_sso" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Isoft_sso" type="47feb1d3:ProjectViewModuleNode" />
-              <item name="ILearning" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="module" type="462c0819:PsiDirectoryNode" />
-              <item name="homemanage" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Isoft_sso" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Isoft_sso" type="47feb1d3:ProjectViewModuleNode" />
-              <item name="ILearning" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="module" type="462c0819:PsiDirectoryNode" />
-              <item name="homemanage" type="462c0819:PsiDirectoryNode" />
-              <item name="courselist" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Isoft_sso" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Isoft_sso" type="47feb1d3:ProjectViewModuleNode" />
-              <item name="ILearning" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="module" type="462c0819:PsiDirectoryNode" />
-              <item name="homemanage" type="462c0819:PsiDirectoryNode" />
-              <item name="newcourse" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Isoft_sso" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Isoft_sso" type="47feb1d3:ProjectViewModuleNode" />
-              <item name="ILearning" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="module" type="462c0819:PsiDirectoryNode" />
-              <item name="note" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Isoft_sso" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Isoft_sso" type="47feb1d3:ProjectViewModuleNode" />
-              <item name="ILearning" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="module" type="462c0819:PsiDirectoryNode" />
-              <item name="note" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Isoft_sso" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Isoft_sso" type="47feb1d3:ProjectViewModuleNode" />
-              <item name="ILearning" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="module" type="462c0819:PsiDirectoryNode" />
-              <item name="note" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Isoft_sso" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Isoft_sso" type="47feb1d3:ProjectViewModuleNode" />
-              <item name="ILearning" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Isoft_sso" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Isoft_sso" type="47feb1d3:ProjectViewModuleNode" />
-              <item name="ILearning" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Isoft_sso" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Isoft_sso" type="47feb1d3:ProjectViewModuleNode" />
-              <item name="ILearning" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="course" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="settings.editor.selected.configurable" value="goland.project.structure" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ILearning" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="go.sdk.automatically.set" value="true" />
     <property name="go.vendoring.notification.had.been.shown" value="true" />
     <property name="DefaultGoTemplateProperty" value="Go File" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="GO_FMT" value="false" />
+    <property name="GO_FMT" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\zhourui\program\go\goland_workspace\src\ILearning\views" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\zhourui\program\go\goland_workspace\src\Isoft_sso\static\common" />
       <recent name="D:\zhourui\program\go\goland_workspace\src\ILearning\static\common" />
       <recent name="D:\zhourui\program\go\goland_workspace\src\ILearning\views\note" />
       <recent name="D:\zhourui\program\go\goland_workspace\src\ILearning\static\module\course" />
       <recent name="D:\zhourui\program\go\goland_workspace\src\ILearning\static\js" />
-      <recent name="D:\zhourui\program\go\goland_workspace\src\IUIP\core\tool" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\zhourui\program\go\goland_workspace\src\ILearning\views" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -413,7 +855,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Build.go build main.go-isoft_sso">
+  <component name="RunManager" selected="Go Build.go build main.go-ILearning">
     <configuration name="go build main.go-ILearning" type="GoApplicationRunConfiguration" factoryName="Go Application">
       <module name="Isoft_sso" />
       <working_directory value="D:\zhourui\program\go\goland_workspace\src\ILearning" />
@@ -453,11 +895,10 @@
     <frame x="-11" y="-11" width="1942" height="1042" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35151187" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34557235" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289941" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.61301774" sideWeight="0.5151188" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991362" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6824085" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.61301774" sideWeight="0.48488122" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.57988167" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -469,27 +910,9 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6824085" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
-    <layout-to-restore>
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289941" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.61301774" sideWeight="0.5151188" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.61301774" sideWeight="0.48488122" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.57988167" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289941" sideWeight="0.49784017" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35151187" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991362" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6824085" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.46627218" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -525,6 +948,7 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="SHOW_DIRTY_RECURSIVELY" value="true" />
     <MESSAGE value="提交代码" />
     <option name="LAST_COMMIT_MESSAGE" value="提交代码" />
@@ -539,43 +963,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../github.com/astaxie/beego/router.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="720" column="0" lean-forward="false" selection-start-line="720" selection-start-column="0" selection-end-line="720" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../github.com/astaxie/beego/orm/types.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="269">
-          <caret line="146" column="4" lean-forward="false" selection-start-line="146" selection-start-column="4" selection-end-line="146" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../github.com/astaxie/beego/orm/orm_conds.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="269">
-          <caret line="26" column="5" lean-forward="false" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../ILearning/controllers/comment.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../ILearning/controllers/common.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="16" column="45" lean-forward="false" selection-start-line="16" selection-start-column="45" selection-end-line="16" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../ILearning/static/module/course/coursetypelist/js/plugins/jquery/dist/jquery.min.js" />
-    <entry file="file://$PROJECT_DIR$/../ILearning/static/module/course/coursetypelist/index.html" />
     <entry file="file://$PROJECT_DIR$/../ILearning/views/search.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
@@ -601,7 +988,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="576">
           <caret line="22" column="61" lean-forward="true" selection-start-line="22" selection-start-column="61" selection-end-line="22" selection-end-column="61" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -609,7 +995,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -617,14 +1002,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="377">
           <caret line="24" column="58" lean-forward="true" selection-start-line="24" selection-start-column="58" selection-end-line="24" selection-end-column="58" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../ILearning/routers/router.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="648">
-          <caret line="49" column="64" lean-forward="false" selection-start-line="49" selection-start-column="64" selection-end-line="49" selection-end-column="64" />
         </state>
       </provider>
     </entry>
@@ -656,7 +1033,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -664,7 +1040,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="456">
           <caret line="21" column="5" lean-forward="false" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -672,7 +1047,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-11">
           <caret line="145" column="5" lean-forward="false" selection-start-line="145" selection-start-column="5" selection-end-line="145" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -680,7 +1054,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="269">
           <caret line="49" column="20" lean-forward="false" selection-start-line="49" selection-start-column="20" selection-end-line="49" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -688,39 +1061,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
           <caret line="47" column="19" lean-forward="false" selection-start-line="47" selection-start-column="19" selection-end-line="47" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Downloads/jiaoben4550/js/query.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Downloads/jiaoben4550/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="17" column="43" lean-forward="false" selection-start-line="17" selection-start-column="43" selection-end-line="17" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Downloads/jiaoben4550/js/paging.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="332">
-          <caret line="37" column="38" lean-forward="true" selection-start-line="37" selection-start-column="38" selection-end-line="37" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/Downloads/jiaoben4550/js/query.js" />
+    <entry file="file://$USER_HOME$/Downloads/jiaoben4550/index.html" />
+    <entry file="file://$USER_HOME$/Downloads/jiaoben4550/js/paging.js" />
     <entry file="file://$PROJECT_DIR$/../ILearning/static/common/paginator/js/query.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -728,7 +1078,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="377">
           <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="22" selection-end-column="8" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -736,7 +1085,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -744,7 +1092,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="48">
           <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -752,7 +1099,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4248">
           <caret line="175" column="0" lean-forward="false" selection-start-line="175" selection-start-column="0" selection-end-line="176" selection-end-column="40" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -760,7 +1106,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -768,9 +1113,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-3367">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1521037424361" expanded="true" signature="1704:1714" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -778,7 +1120,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -786,7 +1127,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-679">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -794,7 +1134,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -802,7 +1141,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -810,7 +1148,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -818,14 +1155,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="14">
           <caret line="75" column="68" lean-forward="true" selection-start-line="75" selection-start-column="68" selection-end-line="75" selection-end-column="68" />
-          <folding>
-            <marker date="1523073139897" expanded="true" signature="5181:5187" ph=" " />
-            <marker date="1523073139897" expanded="true" signature="5322:5328" ph=" " />
-            <marker date="1523073139897" expanded="true" signature="5329:5335" ph=" " />
-            <marker date="1523073139897" expanded="true" signature="6240:6310" ph="..." />
-            <marker date="1523073139897" expanded="true" signature="6252:6264" ph="..." />
-            <marker date="1523073139897" expanded="true" signature="6690:6702" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -833,7 +1162,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="488">
           <caret line="50" column="31" lean-forward="false" selection-start-line="50" selection-start-column="25" selection-end-line="50" selection-end-column="31" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -841,7 +1169,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="526">
           <caret line="35" column="35" lean-forward="false" selection-start-line="35" selection-start-column="35" selection-end-line="35" selection-end-column="35" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -849,15 +1176,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="480">
           <caret line="20" column="27" lean-forward="false" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../ILearning/controllers/course.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="291" column="35" lean-forward="false" selection-start-line="291" selection-start-column="29" selection-end-line="291" selection-end-column="35" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -865,83 +1183,94 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="269">
           <caret line="56" column="18" lean-forward="false" selection-start-line="56" selection-start-column="18" selection-end-line="56" selection-end-column="18" />
-          <folding>
-            <marker date="1523112036512" expanded="true" signature="3236:3262" ph="..." />
-            <marker date="1523112036512" expanded="true" signature="3368:3394" ph="..." />
-            <marker date="1523112036512" expanded="true" signature="3442:3468" ph="..." />
-            <marker date="1523112036512" expanded="true" signature="3689:3715" ph="..." />
-            <marker date="1523112036512" expanded="true" signature="3848:3874" ph="..." />
-            <marker date="1523112036512" expanded="true" signature="4008:4034" ph="..." />
-            <marker date="1523112036512" expanded="true" signature="4295:4332" ph="..." />
-            <marker date="1523112036512" expanded="true" signature="4507:4610" ph="..." />
-            <marker date="1523112036512" expanded="true" signature="5608:5635" ph="..." />
-            <marker date="1523112036512" expanded="true" signature="5772:5788" ph="..." />
-            <marker date="1523112036512" expanded="true" signature="6153:6178" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../ILearning/static/module/homemanage/courselist/courselist.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="24">
-          <caret line="1" column="1" lean-forward="true" selection-start-line="1" selection-start-column="1" selection-end-line="1" selection-end-column="8" />
-          <folding />
+          <caret line="1" column="1" lean-forward="false" selection-start-line="1" selection-start-column="1" selection-end-line="1" selection-end-column="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../ILearning/ilearning/util/page.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="593">
+        <state relative-caret-position="1224">
           <caret line="51" column="28" lean-forward="false" selection-start-line="51" selection-start-column="18" selection-end-line="51" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../ILearning/views/course/course_list.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="7" column="67" lean-forward="true" selection-start-line="7" selection-start-column="67" selection-end-line="7" selection-end-column="67" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h4#0;n#header#0;n#article#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#h4#0;n#header#0;n#article#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#h4#0;n#header#0;n#article#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#header#0;n#article#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#section#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#div#0;n#section#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#section#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#0;n#div#1;n#section#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#section#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#span#0;n#p#6;n#div#2;n#section#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#p#7;n#div#2;n#section#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#p#8;n#div#2;n#section#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#3;n#section#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#input#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#button#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#2;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#div#0;n#div#2;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#button#0;n#p#3;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../ILearning/static/common/paginator/js/paging.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2785">
+        <state relative-caret-position="720">
           <caret line="37" column="25" lean-forward="false" selection-start-line="37" selection-start-column="12" selection-end-line="37" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ILearning/static/common/paginator/css/paging.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="5" column="131" lean-forward="false" selection-start-line="5" selection-start-column="131" selection-end-line="5" selection-end-column="131" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ILearning/static/common/alert_info/css/component.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/common/alert_info/js/classie.js" />
+    <entry file="file://$PROJECT_DIR$/../ILearning/routers/router.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="25" column="56" lean-forward="false" selection-start-line="25" selection-start-column="56" selection-end-line="25" selection-end-column="56" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ILearning/controllers/course.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="326">
+          <caret line="174" column="38" lean-forward="false" selection-start-line="174" selection-start-column="27" selection-end-line="174" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/module/homemanage/courselist/courselist.js" />
+    <entry file="file://$PROJECT_DIR$/../ILearning/views/course/course_list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="9" column="78" lean-forward="false" selection-start-line="9" selection-start-column="78" selection-end-line="9" selection-end-column="78" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/common/bootstrap-3.3.7-dist/js/npm.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/css/header.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="7" column="53" lean-forward="true" selection-start-line="7" selection-start-column="53" selection-end-line="7" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ILearning/static/common/alert_info/js/modalEffects.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../ILearning/static/module/homemanage/courselist/courselist.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="18" column="43" lean-forward="true" selection-start-line="18" selection-start-column="43" selection-end-line="18" selection-end-column="43" />
+        <state relative-caret-position="125">
+          <caret line="11" column="7" lean-forward="false" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
           <folding />
         </state>
       </provider>
