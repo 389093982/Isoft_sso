@@ -1,14 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="699a1250-18c5-405c-a8b8-9a683e0882a7" name="Default" comment="">
+    <list default="true" id="699a1250-18c5-405c-a8b8-9a683e0882a7" name="Default" comment="提交代码">
+      <change beforePath="" afterPath="$PROJECT_DIR$/controllers/appregister.go" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/controllers/loginrecord.go" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ilearning/util/page.go" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/common/leftnav/css/font-awesome.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/common/leftnav/css/leftnav.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/common/leftnav/fonts/fontawesome-webfont.eot" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/common/leftnav/fonts/fontawesome-webfont.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/common/leftnav/fonts/fontawesome-webfont.woff" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/common/leftnav/fonts/fontawesome-webfont.woff2" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/common/leftnav/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/common/leftnav/js/jquery.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/common/leftnav/js/leftnav.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/common/leftnav/说明.htm" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/common/leftnav/说明.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/common/paginator/css/paging.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/common/paginator/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/common/paginator/js/jquery-1.11.2.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/common/paginator/js/paging.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/common/paginator/js/query.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/common/paginator/说明.htm" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/common/paginator/说明.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/common/vue.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/views/admin/admin_manage_default.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/views/admin/admin_manage_layout.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/views/admin/appregister_list.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/views/admin/loginrecord_list.html" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/jsLinters/jshint.xml" afterPath="$PROJECT_DIR$/.idea/jsLinters/jshint.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/static/img/a.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/img/golang.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/js/course/course.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/js/course/course_detail.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/js/course/course_play.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/js/course/jquery-comment.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/conf/app.conf" afterPath="$PROJECT_DIR$/conf/app.conf" />
+      <change beforePath="$PROJECT_DIR$/conf/dev.conf" afterPath="$PROJECT_DIR$/conf/local.conf" />
+      <change beforePath="$PROJECT_DIR$/conf/prod.conf" afterPath="$PROJECT_DIR$/conf/yun.conf" />
+      <change beforePath="$PROJECT_DIR$/conf/test.conf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/controllers/user.go" afterPath="$PROJECT_DIR$/controllers/user.go" />
+      <change beforePath="$PROJECT_DIR$/main.go" afterPath="$PROJECT_DIR$/main.go" />
+      <change beforePath="$PROJECT_DIR$/models/appregister.go" afterPath="$PROJECT_DIR$/models/appregister.go" />
+      <change beforePath="$PROJECT_DIR$/models/logging.go" afterPath="$PROJECT_DIR$/models/loginrecord.go" />
+      <change beforePath="$PROJECT_DIR$/routers/router.go" afterPath="$PROJECT_DIR$/routers/router.go" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -31,62 +62,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file leaf-file-name="router.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../ILearning/routers/router.go">
+      <file leaf-file-name="loginrecord_list.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/views/admin/loginrecord_list.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="24">
-              <caret line="25" column="56" lean-forward="false" selection-start-line="25" selection-start-column="56" selection-end-line="25" selection-end-column="56" />
-              <folding />
+            <state relative-caret-position="497">
+              <caret line="85" column="54" lean-forward="false" selection-start-line="85" selection-start-column="54" selection-end-line="85" selection-end-column="54" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="icons_all.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/static/img/icons_all.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="login_bg.jpg" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/static/img/login_bg.jpg">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="news.gif" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/static/img/news.gif">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="phone.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/static/img/phone.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="question_icon.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/static/img/question_icon.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="search.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/static/img/search.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="welcome_login.png" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/static/img/welcome_login.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
+      <file leaf-file-name="loginrecord.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/controllers/loginrecord.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="353">
+              <caret line="25" column="42" lean-forward="true" selection-start-line="25" selection-start-column="42" selection-end-line="25" selection-end-column="42" />
+              <folding>
+                <element signature="e#21#152#0" expanded="true" />
+              </folding>
+            </state>
           </provider>
         </entry>
       </file>
@@ -95,16 +93,13 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Go File" />
         <option value="HTML File" />
+        <option value="Go File" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>Show</find>
-      <find>_fun_time</find>
-      <find>vedio</find>
       <find>title</find>
       <find>webui-popover-title</find>
       <find>Vue</find>
@@ -132,7 +127,13 @@
       <find>pageTool</find>
       <find>.md-overlay</find>
       <find>course_list</find>
+      <find>data-reveal-id</find>
+      <find>reveal-modal-bg</find>
+      <find>LoginLog</find>
     </findStrings>
+    <replaceStrings>
+      <replace>LoginRecord</replace>
+    </replaceStrings>
     <dirStrings>
       <dir>D:\zhourui\program\go\goland_workspace\src\ILearning\static\js</dir>
       <dir>D:\zhourui\program\go\goland_workspace\src\ILearning</dir>
@@ -145,32 +146,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/static/js/user/login.js" />
-        <option value="$PROJECT_DIR$/views/login.html" />
-        <option value="$PROJECT_DIR$/models/appregister.go" />
-        <option value="$PROJECT_DIR$/views/403.html" />
-        <option value="$PROJECT_DIR$/conf/prod.conf" />
-        <option value="$PROJECT_DIR$/conf/test.conf" />
-        <option value="$PROJECT_DIR$/models/log.go" />
-        <option value="$PROJECT_DIR$/models/user.go" />
-        <option value="$PROJECT_DIR$/models/logging.go" />
-        <option value="$PROJECT_DIR$/conf/dev.conf" />
-        <option value="$PROJECT_DIR$/../ILearning/ileaning/filter/filter.go" />
-        <option value="$PROJECT_DIR$/../ILearning/ileaning/util/aesutil.go" />
-        <option value="$PROJECT_DIR$/conf/app.conf" />
-        <option value="$PROJECT_DIR$/routers/router.go" />
-        <option value="$PROJECT_DIR$/../ILearning/conf/app.conf" />
-        <option value="$PROJECT_DIR$/../ILearning/static/js/header.js" />
-        <option value="$PROJECT_DIR$/../ILearning/ilearning/filter/filter.go" />
-        <option value="$PROJECT_DIR$/main.go" />
-        <option value="$PROJECT_DIR$/../IUIP/main.go" />
-        <option value="$PROJECT_DIR$/../IUIP/core/tool/test1.go" />
-        <option value="$PROJECT_DIR$/../IUIP/core/tool/activemq.go" />
-        <option value="$PROJECT_DIR$/controllers/user.go" />
-        <option value="$PROJECT_DIR$/../ILearning/views/common/header.html" />
-        <option value="$PROJECT_DIR$/../ILearning/views/note/course_type.html" />
-        <option value="$PROJECT_DIR$/../ILearning/views/course_type.html" />
-        <option value="$PROJECT_DIR$/../ILearning/static/json/course.json" />
         <option value="$PROJECT_DIR$/../ILearning/controllers/common.go" />
         <option value="$PROJECT_DIR$/../ILearning/main.go" />
         <option value="$PROJECT_DIR$/../ILearning/models/common.go" />
@@ -179,7 +154,6 @@
         <option value="$PROJECT_DIR$/../ILearning/views/course/course_type.html" />
         <option value="$PROJECT_DIR$/../ILearning/models/course.go" />
         <option value="$PROJECT_DIR$/../ILearning/controllers/default.go" />
-        <option value="$PROJECT_DIR$/../ILearning/views/index.html" />
         <option value="$PROJECT_DIR$/../ILearning/views/course.html" />
         <option value="$PROJECT_DIR$/../ILearning/static/css/course/course.css" />
         <option value="$PROJECT_DIR$/../ILearning/static/js/course/course.js" />
@@ -190,10 +164,39 @@
         <option value="$PROJECT_DIR$/../ILearning/views/note/note_view.html" />
         <option value="$PROJECT_DIR$/../ILearning/controllers/course.go" />
         <option value="$PROJECT_DIR$/../ILearning/ilearning/util/page.go" />
-        <option value="$PROJECT_DIR$/../ILearning/static/module/homemanage/courselist/courselist.js" />
         <option value="$PROJECT_DIR$/../ILearning/static/common/paginator/css/paging.css" />
         <option value="$PROJECT_DIR$/static/module/homemanage/courselist/courselist.js" />
+        <option value="$PROJECT_DIR$/../ILearning/static/common/alert_info/js/modalEffects.js" />
+        <option value="$PROJECT_DIR$/../ILearning/static/module/homemanage/courselist/courselist.js" />
+        <option value="$PROJECT_DIR$/../ILearning/views/index.html" />
+        <option value="$PROJECT_DIR$/../ILearning/views/course/home_manage.html" />
         <option value="$PROJECT_DIR$/../ILearning/views/course/course_list.html" />
+        <option value="$PROJECT_DIR$/conf/dev.conf" />
+        <option value="$PROJECT_DIR$/conf/prod.conf" />
+        <option value="$PROJECT_DIR$/conf/test.conf" />
+        <option value="$PROJECT_DIR$/conf/app.conf" />
+        <option value="$PROJECT_DIR$/../ILearning/conf/app.conf" />
+        <option value="$PROJECT_DIR$/../ILearning/conf/local.conf" />
+        <option value="$PROJECT_DIR$/../ILearning/conf/yun.conf" />
+        <option value="$PROJECT_DIR$/conf/yun.conf" />
+        <option value="$PROJECT_DIR$/conf/local.conf" />
+        <option value="$PROJECT_DIR$/views/admin.html" />
+        <option value="$PROJECT_DIR$/views/admin/admin_manage_default.html" />
+        <option value="$PROJECT_DIR$/controllers/app.go" />
+        <option value="$PROJECT_DIR$/views/admin/appregister_add.html" />
+        <option value="$PROJECT_DIR$/static/common/form_alert/js/jquery.reveal2.js" />
+        <option value="$PROJECT_DIR$/static/common/alert_info/js/classie.js" />
+        <option value="$PROJECT_DIR$/static/common/jquery-JDialog/site/style.css" />
+        <option value="$PROJECT_DIR$/models/appregister.go" />
+        <option value="$PROJECT_DIR$/controllers/appregister.go" />
+        <option value="$PROJECT_DIR$/views/admin/appregister_list.html" />
+        <option value="$PROJECT_DIR$/routers/router.go" />
+        <option value="$PROJECT_DIR$/models/loginrecord.go" />
+        <option value="$PROJECT_DIR$/controllers/user.go" />
+        <option value="$PROJECT_DIR$/main.go" />
+        <option value="$PROJECT_DIR$/views/admin/admin_manage_layout.html" />
+        <option value="$PROJECT_DIR$/controllers/loginrecord.go" />
+        <option value="$PROJECT_DIR$/views/admin/loginrecord_list.html" />
       </list>
     </option>
   </component>
@@ -230,6 +233,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -246,6 +250,24 @@
               <item name="Isoft_sso" type="b2602c69:ProjectViewProjectNode" />
               <item name="Isoft_sso" type="47feb1d3:ProjectViewModuleNode" />
               <item name="Isoft_sso" type="462c0819:PsiDirectoryNode" />
+              <item name="controllers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Isoft_sso" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Isoft_sso" type="47feb1d3:ProjectViewModuleNode" />
+              <item name="Isoft_sso" type="462c0819:PsiDirectoryNode" />
+              <item name="models" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Isoft_sso" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Isoft_sso" type="47feb1d3:ProjectViewModuleNode" />
+              <item name="Isoft_sso" type="462c0819:PsiDirectoryNode" />
+              <item name="routers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Isoft_sso" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Isoft_sso" type="47feb1d3:ProjectViewModuleNode" />
+              <item name="Isoft_sso" type="462c0819:PsiDirectoryNode" />
               <item name="static" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -253,28 +275,49 @@
               <item name="Isoft_sso" type="47feb1d3:ProjectViewModuleNode" />
               <item name="Isoft_sso" type="462c0819:PsiDirectoryNode" />
               <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Isoft_sso" type="b2602c69:ProjectViewProjectNode" />
               <item name="Isoft_sso" type="47feb1d3:ProjectViewModuleNode" />
               <item name="Isoft_sso" type="462c0819:PsiDirectoryNode" />
               <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="paginator" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Isoft_sso" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Isoft_sso" type="47feb1d3:ProjectViewModuleNode" />
+              <item name="Isoft_sso" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="paginator" type="462c0819:PsiDirectoryNode" />
               <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Isoft_sso" type="b2602c69:ProjectViewProjectNode" />
               <item name="Isoft_sso" type="47feb1d3:ProjectViewModuleNode" />
               <item name="Isoft_sso" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-              <item name="user" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Isoft_sso" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Isoft_sso" type="47feb1d3:ProjectViewModuleNode" />
+              <item name="Isoft_sso" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Isoft_sso" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Isoft_sso" type="47feb1d3:ProjectViewModuleNode" />
+              <item name="Isoft_sso" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -289,15 +332,16 @@
     <property name="GO_FMT" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\zhourui\program\go\goland_workspace\src\ILearning\views" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\zhourui\program\go\goland_workspace\src\Isoft_sso\views\admin" />
       <recent name="D:\zhourui\program\go\goland_workspace\src\Isoft_sso\static\common" />
-      <recent name="D:\zhourui\program\go\goland_workspace\src\ILearning\static\common" />
-      <recent name="D:\zhourui\program\go\goland_workspace\src\ILearning\views\note" />
-      <recent name="D:\zhourui\program\go\goland_workspace\src\ILearning\static\module\course" />
-      <recent name="D:\zhourui\program\go\goland_workspace\src\ILearning\static\js" />
+      <recent name="D:\zhourui\program\go\goland_workspace\src\Isoft_sso\static\common\form_alert" />
+      <recent name="D:\zhourui\program\go\goland_workspace\src\Isoft_sso\static\common\form_alert\js" />
+      <recent name="D:\zhourui\program\go\goland_workspace\src\Isoft_sso\static\js\appregister" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\zhourui\program\go\goland_workspace\src\Isoft_sso\views\admin" />
+      <recent name="D:\zhourui\program\go\goland_workspace\src\ILearning\views" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -312,7 +356,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Build.go build main.go-ILearning">
+  <component name="RunManager" selected="Go Build.go build main.go-isoft_sso">
     <configuration name="go build main.go-ILearning" type="GoApplicationRunConfiguration" factoryName="Go Application">
       <module name="Isoft_sso" />
       <working_directory value="D:\zhourui\program\go\goland_workspace\src\ILearning" />
@@ -352,7 +396,7 @@
     <frame x="-11" y="-11" width="1942" height="1042" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34557235" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29589632" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289941" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.61301774" sideWeight="0.5151188" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991362" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
@@ -367,9 +411,28 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6824085" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6816568" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289941" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.61301774" sideWeight="0.5151188" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.61301774" sideWeight="0.48488122" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.57988167" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289941" sideWeight="0.49784017" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29589632" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991362" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6816568" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.46627218" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -420,301 +483,299 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../ILearning/static/common/calendar/js/jquery-1.4.min.js" />
-    <entry file="file://$PROJECT_DIR$/../ILearning/static/common/calendar/index.html" />
-    <entry file="file://$PROJECT_DIR$/../ILearning/views/common/calendar.html" />
-    <entry file="file://$PROJECT_DIR$/../ILearning/ilearning/util/path.go">
+    <entry file="file://$PROJECT_DIR$/views/regist.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../github.com/astaxie/beego/utils/pagination/controller.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="21" column="5" lean-forward="false" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../ILearning/models/course.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-11">
-          <caret line="145" column="5" lean-forward="false" selection-start-line="145" selection-start-column="5" selection-end-line="145" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../github.com/astaxie/beego/utils/pagination/paginator.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="269">
-          <caret line="49" column="20" lean-forward="false" selection-start-line="49" selection-start-column="20" selection-end-line="49" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../ILearning/views/note/note_view.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="47" column="19" lean-forward="false" selection-start-line="47" selection-start-column="19" selection-end-line="47" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Downloads/jiaoben4550/js/query.js" />
-    <entry file="file://$USER_HOME$/Downloads/jiaoben4550/index.html" />
-    <entry file="file://$USER_HOME$/Downloads/jiaoben4550/js/paging.js" />
-    <entry file="file://$PROJECT_DIR$/../ILearning/static/common/paginator/js/query.js">
+    <entry file="file://$PROJECT_DIR$/static/common/leftnav/js/leftnav.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../ILearning/static/common/paginator/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="377">
-          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="22" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../ILearning/static/common/toggle_message/index.html">
+    <entry file="file://$PROJECT_DIR$/static/common/leftnav/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../ILearning/views/common/header.html">
+    <entry file="file://$PROJECT_DIR$/../ILearning/views/course/home_manage.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+        <state relative-caret-position="384">
+          <caret line="16" column="6" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="158" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ilearning/util/page.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-583">
+          <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/css/formbox.css" />
+    <entry file="file://$PROJECT_DIR$/static/js/appregister/Validate.js" />
+    <entry file="file://$PROJECT_DIR$/static/js/appregister/Validate.form.js" />
+    <entry file="file://$PROJECT_DIR$/views/admin/appregister_add.html" />
+    <entry file="file://$PROJECT_DIR$/../ILearning/static/module/homemanage/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/jiaoben1320/index.html" />
+    <entry file="file://$PROJECT_DIR$/static/common/form_alert/js/jquery-1.4.4.min.js" />
+    <entry file="file://$PROJECT_DIR$/static/common/form_alert/js/jquery.reveal.js" />
+    <entry file="file://$PROJECT_DIR$/../ILearning/static/js/jquery-ilearning-plugin.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1800">
+          <caret line="75" column="68" lean-forward="false" selection-start-line="75" selection-start-column="68" selection-end-line="75" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/common/form_alert/js/jquery.reveal2.js" />
+    <entry file="file://$PROJECT_DIR$/static/common/form_alert/index.html" />
+    <entry file="file://$PROJECT_DIR$/static/common/form_alert/modal-gloss.png" />
+    <entry file="file://$PROJECT_DIR$/static/common/alert_info/js/modalEffects.js" />
+    <entry file="file://$PROJECT_DIR$/../ILearning/static/common/alert_info/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="82" column="97" lean-forward="false" selection-start-line="82" selection-start-column="97" selection-end-line="82" selection-end-column="97" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../ILearning/views/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4248">
-          <caret line="175" column="0" lean-forward="false" selection-start-line="175" selection-start-column="0" selection-end-line="176" selection-end-column="40" />
+        <state relative-caret-position="761">
+          <caret line="45" column="10" lean-forward="false" selection-start-line="45" selection-start-column="10" selection-end-line="45" selection-end-column="10" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../ILearning/static/module/homemanage/newcourse/Validate.js">
+    <entry file="file://$PROJECT_DIR$/../ILearning/views/imgscanner.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../ILearning/static/module/homemanage/newcourse/Validate.form.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3367">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../ILearning/static/module/note/js/note_edit.js">
+    <entry file="file://$PROJECT_DIR$/views/admin/admin_manage_default.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="0" column="12" lean-forward="false" selection-start-line="0" selection-start-column="12" selection-end-line="0" selection-end-column="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../ILearning/static/js/course/course_detail.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-679">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../ILearning/static/js/course/course_play.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../ILearning/static/js/header.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../ILearning/static/js/reload.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../ILearning/static/js/jquery-ilearning-plugin.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="14">
-          <caret line="75" column="68" lean-forward="true" selection-start-line="75" selection-start-column="68" selection-end-line="75" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../ILearning/views/course.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="488">
-          <caret line="50" column="31" lean-forward="false" selection-start-line="50" selection-start-column="25" selection-end-line="50" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../ILearning/static/js/course/jquery-comment.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="526">
-          <caret line="35" column="35" lean-forward="false" selection-start-line="35" selection-start-column="35" selection-end-line="35" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../ILearning/views/course/course_comment.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="20" column="27" lean-forward="false" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../ILearning/static/js/course/course.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="269">
-          <caret line="56" column="18" lean-forward="false" selection-start-line="56" selection-start-column="18" selection-end-line="56" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../ILearning/static/module/homemanage/courselist/courselist.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24">
-          <caret line="1" column="1" lean-forward="false" selection-start-line="1" selection-start-column="1" selection-end-line="1" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../ILearning/ilearning/util/page.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1224">
-          <caret line="51" column="28" lean-forward="false" selection-start-line="51" selection-start-column="18" selection-end-line="51" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../ILearning/static/common/paginator/js/paging.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="720">
-          <caret line="37" column="25" lean-forward="false" selection-start-line="37" selection-start-column="12" selection-end-line="37" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../ILearning/static/common/paginator/css/paging.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="5" column="131" lean-forward="false" selection-start-line="5" selection-start-column="131" selection-end-line="5" selection-end-column="131" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../ILearning/static/common/alert_info/css/component.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/static/common/AmazeUI-2.7.2/assets/css/amazeui.css" />
+    <entry file="file://$PROJECT_DIR$/static/common/alert_info/index.html" />
     <entry file="file://$PROJECT_DIR$/static/common/alert_info/js/classie.js" />
+    <entry file="file://$PROJECT_DIR$/static/common/jquery-JDialog/src/jdialog.js" />
+    <entry file="file://$PROJECT_DIR$/static/common/jquery-JDialog/dist/jdialog.min.js" />
+    <entry file="file://$PROJECT_DIR$/static/common/jquery-JDialog/site/style.css" />
+    <entry file="file://$PROJECT_DIR$/../ILearning/models/course.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="127" column="0" lean-forward="false" selection-start-line="127" selection-start-column="0" selection-end-line="131" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ILearning/views/common/footer.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ILearning/views/common/rightmenu.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4159">
+          <caret line="4" column="47" lean-forward="true" selection-start-line="4" selection-start-column="47" selection-end-line="4" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ILearning/views/note/note_list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="10" column="7" lean-forward="true" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ILearning/views/course/new_course.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-751">
+          <caret line="7" column="25" lean-forward="true" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ILearning/views/course_detail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1783">
+          <caret line="5" column="55" lean-forward="true" selection-start-line="5" selection-start-column="55" selection-end-line="5" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/../ILearning/controllers/course.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="326">
-          <caret line="174" column="38" lean-forward="false" selection-start-line="174" selection-start-column="27" selection-end-line="174" selection-end-column="38" />
+        <state relative-caret-position="3648">
+          <caret line="163" column="98" lean-forward="true" selection-start-line="163" selection-start-column="12" selection-end-line="163" selection-end-column="98" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/module/homemanage/courselist/courselist.js" />
-    <entry file="file://$PROJECT_DIR$/../ILearning/views/course/course_list.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="9" column="78" lean-forward="false" selection-start-line="9" selection-start-column="78" selection-end-line="9" selection-end-column="78" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/common/bootstrap-3.3.7-dist/js/npm.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/css/header.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="7" column="53" lean-forward="true" selection-start-line="7" selection-start-column="53" selection-end-line="7" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../ILearning/static/common/alert_info/js/modalEffects.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24">
-          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../ILearning/static/module/homemanage/courselist/courselist.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="11" column="7" lean-forward="false" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../ILearning/routers/router.go">
-      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="24">
-          <caret line="25" column="56" lean-forward="false" selection-start-line="25" selection-start-column="56" selection-end-line="25" selection-end-column="56" />
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="40" selection-end-column="5" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/img/golang.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
+    <entry file="file://$PROJECT_DIR$/static/common/vue.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/img/icons_all.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
+    <entry file="file://$PROJECT_DIR$/../ILearning/views/course/course_list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="7" selection-end-column="84" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#button#0;n#p#3;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/img/a.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
+    <entry file="file://$PROJECT_DIR$/static/common/paginator/js/query.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/img/login_bg.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
+    <entry file="file://$PROJECT_DIR$/models/loginrecord.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="14" lean-forward="false" selection-start-line="0" selection-start-column="14" selection-end-line="0" selection-end-column="14" />
+          <folding />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/img/news.gif">
-      <provider selected="true" editor-type-id="images">
-        <state />
+    <entry file="file://$PROJECT_DIR$/models/appregister.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="39" column="0" lean-forward="false" selection-start-line="39" selection-start-column="0" selection-end-line="59" selection-end-column="1" />
+          <folding />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/img/phone.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
+    <entry file="file://$PROJECT_DIR$/views/admin/appregister_list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-16">
+          <caret line="78" column="7" lean-forward="false" selection-start-line="78" selection-start-column="7" selection-end-line="78" selection-end-column="7" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/img/question_icon.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
+    <entry file="file://$PROJECT_DIR$/controllers/user.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3912">
+          <caret line="169" column="5" lean-forward="true" selection-start-line="169" selection-start-column="5" selection-end-line="169" selection-end-column="5" />
+          <folding />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/img/search.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
+    <entry file="file://$PROJECT_DIR$/controllers/appregister.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="30" />
+          <folding />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/img/welcome_login.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
+    <entry file="file://$PROJECT_DIR$/models/loginrecord.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="10" column="11" lean-forward="false" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="11" />
+          <folding>
+            <element signature="e#16#66#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="353">
+          <caret line="48" column="43" lean-forward="false" selection-start-line="48" selection-start-column="43" selection-end-line="48" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routers/router.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="15" column="44" lean-forward="true" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/admin/admin_manage_layout.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="816">
+          <caret line="34" column="77" lean-forward="false" selection-start-line="34" selection-start-column="77" selection-end-line="34" selection-end-column="77" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controllers/loginrecord.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="353">
+          <caret line="25" column="42" lean-forward="true" selection-start-line="25" selection-start-column="42" selection-end-line="25" selection-end-column="42" />
+          <folding>
+            <element signature="e#21#152#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/admin/loginrecord_list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="497">
+          <caret line="85" column="54" lean-forward="false" selection-start-line="85" selection-start-column="54" selection-end-line="85" selection-end-column="54" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
       </provider>
     </entry>
   </component>

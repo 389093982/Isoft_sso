@@ -1,14 +1,14 @@
 package controllers
 
 import (
-	"github.com/astaxie/beego"
-	"encoding/json"
+	"Isoft_sso/ilearning/util"
 	"Isoft_sso/models"
+	"encoding/base64"
+	"encoding/json"
+	"github.com/astaxie/beego"
+	"github.com/astaxie/beego/session"
 	"strings"
 	"time"
-	"Isoft_sso/ilearning/util"
-	"encoding/base64"
-	"github.com/astaxie/beego/session"
 )
 
 var originConfig string
@@ -16,20 +16,20 @@ var aes_sso_key string
 
 var globalSessions *session.Manager
 
-func init()  {
+func init() {
 	originConfig = beego.AppConfig.String("origin")
 	aes_sso_key = beego.AppConfig.String("aes_sso_key")
 
 	// 初始化一个全局的变量用来存储 session 控制器
 	sessionConfig := &session.ManagerConfig{
-		CookieName:"beegosessionid",	// 客户端存储 cookie 的名字
+		CookieName:      "beegosessionid", // 客户端存储 cookie 的名字
 		EnableSetCookie: true,
-		Gclifetime:3600,				// 触发 GC 的时间
-		Maxlifetime: 3600,				// 服务器端存储的数据的过期时间
-		Secure: false,
-		CookieLifeTime: 3600,
+		Gclifetime:      3600, // 触发 GC 的时间
+		Maxlifetime:     3600, // 服务器端存储的数据的过期时间
+		Secure:          false,
+		CookieLifeTime:  3600,
 	}
-	globalSessions, _ = session.NewManager("memory",sessionConfig)
+	globalSessions, _ = session.NewManager("memory", sessionConfig)
 	go globalSessions.GC()
 
 }
@@ -38,18 +38,18 @@ type UserController struct {
 	beego.Controller
 }
 
-func (this *UserController) DeleteToken()  {
-	this.Data["json"] = &map[string]interface{}{"status": "ERROR", "msg":"Token 删除失败!"}
+func (this *UserController) DeleteToken() {
+	this.Data["json"] = &map[string]interface{}{"status": "ERROR", "msg": "Token 删除失败!"}
 	// 获取密文 token
 	token := this.GetString("token")
 	// 对密文 token 进行解密
 	key := []byte(aes_sso_key)
-	b,err := base64.StdEncoding.DecodeString(token)
-	if err != nil{
+	b, err := base64.StdEncoding.DecodeString(token)
+	if err != nil {
 		// 自定义解码方式,主要供非 go 代码方式调用
 		token = strings.Replace(token, "BAAAAAAAAB", "+", -1)
 		token = strings.Replace(token, "ABBBBBBBBA", "/", -1)
-		b,err = base64.StdEncoding.DecodeString(token)
+		b, err = base64.StdEncoding.DecodeString(token)
 	}
 	origData, err := util.AesDecrypt(b, key)
 	if err == nil {
@@ -57,31 +57,31 @@ func (this *UserController) DeleteToken()  {
 		var tokenMap map[string]string
 		json.Unmarshal([]byte(tokenStr), &tokenMap)
 		ssoSessionId := tokenMap["ssoSessionId"]
-		sess,_ := globalSessions.GetSessionStore(ssoSessionId)
+		sess, _ := globalSessions.GetSessionStore(ssoSessionId)
 		// session 释放
 		sess.SessionRelease(this.Ctx.ResponseWriter)
-		this.Data["json"] = &map[string]interface{}{"status": "SUCCESS", "msg":"Token 删除成功!"}
+		this.Data["json"] = &map[string]interface{}{"status": "SUCCESS", "msg": "Token 删除成功!"}
 	}
 	this.ServeJSON()
 }
 
-func (this *UserController) Logout()  {
+func (this *UserController) Logout() {
 	this.DelSession("username")
 	this.Redirect("/user/login", 302)
 }
 
-func (this *UserController) CheckLogin()  {
-	this.Data["json"] = &map[string]interface{}{"userName":"", "status": "ERROR", "msg":"认证失败!"}
+func (this *UserController) CheckLogin() {
+	this.Data["json"] = &map[string]interface{}{"userName": "", "status": "ERROR", "msg": "认证失败!"}
 
 	// 获取密文 token
 	token := this.GetString("token")
 	// 对密文 token 进行解密
 	key := []byte(aes_sso_key)
-	b,err := base64.StdEncoding.DecodeString(token)
-	if err != nil{
+	b, err := base64.StdEncoding.DecodeString(token)
+	if err != nil {
 		token = strings.Replace(token, "BAAAAAAAAB", "+", -1)
 		token = strings.Replace(token, "ABBBBBBBBA", "/", -1)
-		b,err = base64.StdEncoding.DecodeString(token)
+		b, err = base64.StdEncoding.DecodeString(token)
 	}
 	origData, err := util.AesDecrypt(b, key)
 	if err == nil {
@@ -93,10 +93,10 @@ func (this *UserController) CheckLogin()  {
 		userName := tokenMap["userName"]
 		isLogin := tokenMap["isLogin"]
 
-		sess,_ := globalSessions.GetSessionStore(ssoSessionId)
+		sess, _ := globalSessions.GetSessionStore(ssoSessionId)
 		if sess.Get("userName") == userName && sess.Get("isLogin") == isLogin {
-			this.Data["json"] = &map[string]interface{}{"userName": tokenMap["userName"], "isLogin": tokenMap["isLogin"], "status": "SUCCESS", "msg":"认证成功!"}
-		}else{
+			this.Data["json"] = &map[string]interface{}{"userName": tokenMap["userName"], "isLogin": tokenMap["isLogin"], "status": "SUCCESS", "msg": "认证成功!"}
+		} else {
 			// session 释放
 			sess.SessionRelease(this.Ctx.ResponseWriter)
 		}
@@ -104,11 +104,11 @@ func (this *UserController) CheckLogin()  {
 	this.ServeJSON()
 }
 
-func (this *UserController) Regist()  {
+func (this *UserController) Regist() {
 	Method := this.Ctx.Request.Method
-	if Method == "GET"{
+	if Method == "GET" {
 		this.TplName = "regist.html"
-	}else{
+	} else {
 		var user models.User
 		inputs := this.Input()
 		user.UserName = inputs.Get("username")
@@ -122,9 +122,9 @@ func (this *UserController) Regist()  {
 		//初始化
 		data := make(map[string]interface{}, 1)
 
-		if err == nil{
+		if err == nil {
 			data["status"] = "SUCCESS"
-		}else{
+		} else {
 			data["Status"] = "ERROR"
 			data["ErrorCode"] = err.Error()
 			data["ErrorMsg"] = err.Error()
@@ -138,10 +138,10 @@ func (this *UserController) Regist()  {
 	}
 }
 
-func (this *UserController) Login()  {
-	if this.Ctx.Request.Method == "GET"{
+func (this *UserController) Login() {
+	if this.Ctx.Request.Method == "GET" {
 		this.TplName = "login.html"
-	}else{
+	} else {
 		// referer显示来源页面的完整地址,而origin显示来源页面的origin: protocal+host,不包含路径等信息,也就不会包含含有用户信息的敏感内容
 		// referer存在于所有请求,而origin只存在于post请求,随便在页面上点击一个链接将不会发送origin
 		// 因此origin较referer更安全,多用于防范CSRF攻击
@@ -149,7 +149,7 @@ func (this *UserController) Login()  {
 		origin := this.Ctx.Request.Header.Get("origin")
 		username := this.Input().Get("username")
 		passwd := this.Input().Get("passwd")
-		if IsAdminUser(username){	// 是管理面账号
+		if IsAdminUser(username) { // 是管理面账号
 			AdminUserLogin(origin, this, username, referer)
 		} else {
 			CommonUserLogin(referer, origin, username, passwd, this)
@@ -171,7 +171,7 @@ func CommonUserLogin(referer string, origin string, username string, passwd stri
 }
 
 func SuccessedLogin(username string, this *UserController, origin string, referer string, user models.User, referers []string) {
-	var loginLog models.LoginLog
+	var loginLog models.LoginRecord
 	loginLog.UserName = username
 	loginLog.LoginIp = this.Ctx.Input.IP()
 	loginLog.Origin = origin
@@ -182,7 +182,7 @@ func SuccessedLogin(username string, this *UserController, origin string, refere
 	loginLog.CreatedTime = time.Now()
 	loginLog.LastUpdatedBy = "SYSTEM"
 	loginLog.LastUpdatedTime = time.Now()
-	models.AddLoginLog(loginLog)
+	models.AddLoginRecord(loginLog)
 	// 将用户登录信息添加到 session 中去
 	this.SetSession("UserName", user.UserName)
 	sess, _ := globalSessions.SessionStart(this.Ctx.ResponseWriter, this.Ctx.Request)
@@ -190,7 +190,7 @@ func SuccessedLogin(username string, this *UserController, origin string, refere
 	sess.Set("userName", user.UserName)
 	sess.Set("isLogin", "isLogin")
 	// 设置 cookie 信息
-	this.Ctx.ResponseWriter.Header().Set("Access-Control-Allow-Origin", ".isoft.com")
+	this.Ctx.ResponseWriter.Header().Set("Access-Control-Allow-Origin", "*")
 	token := make(map[string]string, 10)
 	token["ssoSessionId"] = sess.SessionID()
 	token["userName"] = username
@@ -210,7 +210,7 @@ func SuccessedLogin(username string, this *UserController, origin string, refere
 }
 
 func ErrorAuthorizedLogin(username string, this *UserController, origin string, referer string) {
-	var loginLog models.LoginLog
+	var loginLog models.LoginRecord
 	loginLog.UserName = username
 	loginLog.LoginIp = this.Ctx.Input.IP()
 	loginLog.Origin = origin
@@ -225,12 +225,12 @@ func ErrorAuthorizedLogin(username string, this *UserController, origin string, 
 	loginLog.CreatedTime = time.Now()
 	loginLog.LastUpdatedBy = "SYSTEM"
 	loginLog.LastUpdatedTime = time.Now()
-	models.AddLoginLog(loginLog)
+	models.AddLoginRecord(loginLog)
 	this.TplName = "403.html"
 }
 
 func ErrorAccountLogin(username string, this *UserController, origin string, referer string) {
-	var loginLog models.LoginLog
+	var loginLog models.LoginRecord
 	loginLog.UserName = username
 	loginLog.LoginIp = this.Ctx.Input.IP()
 	loginLog.Origin = origin
@@ -241,7 +241,7 @@ func ErrorAccountLogin(username string, this *UserController, origin string, ref
 	loginLog.CreatedTime = time.Now()
 	loginLog.LastUpdatedBy = "SYSTEM"
 	loginLog.LastUpdatedTime = time.Now()
-	models.AddLoginLog(loginLog)
+	models.AddLoginRecord(loginLog)
 	this.Data["ErrorMsg"] = "用户名或密码不正确!"
 	this.TplName = "login.html"
 }
@@ -249,14 +249,15 @@ func ErrorAccountLogin(username string, this *UserController, origin string, ref
 func AdminUserLogin(origin string, this *UserController, username string, referer string) {
 	if CheckOrigin(origin) { // 非跨站点
 		// 跳往管理界面
-		this.TplName = "admin.html"
+		this.Layout = "admin/admin_manage_layout.html"
+		this.TplName = "admin/admin_manage_default.html"
 	} else {
 		ErrorAuthorizedLogin(username, this, origin, referer)
 	}
 }
 
-func IsValidRedirectUrl(redirectUrl string) bool{
-	if redirectUrl != "" && IsHttpProtocol(redirectUrl){
+func IsValidRedirectUrl(redirectUrl string) bool {
+	if redirectUrl != "" && IsHttpProtocol(redirectUrl) {
 		// 截取协议名称
 		arr := strings.Split(redirectUrl, "//")
 		protocol := arr[0]
@@ -264,20 +265,20 @@ func IsValidRedirectUrl(redirectUrl string) bool{
 		a1 := arr[1]
 		host := strings.Split(a1, "/")[0]
 		return CheckRegister(protocol + "//" + host)
-	}else{
+	} else {
 		return false
 	}
 }
 
 func IsAdminUser(user_name string) bool {
-	if user_name == "admin1"{
+	if user_name == "admin1" {
 		return true
 	}
 	return false
 }
 
-func IsHttpProtocol(url string)  bool {
-	if strings.HasPrefix(url, "http") || strings.HasPrefix(url, "https"){
+func IsHttpProtocol(url string) bool {
+	if strings.HasPrefix(url, "http") || strings.HasPrefix(url, "https") {
 		return true
 	}
 	return false
@@ -288,8 +289,8 @@ func CheckRegister(registUrl string) bool {
 	return models.CheckRegister(registUrl)
 }
 
-func CheckOrigin(origin string) bool{
-	if origin == originConfig{
+func CheckOrigin(origin string) bool {
+	if origin == originConfig {
 		return true
 	}
 	return false

@@ -1,13 +1,13 @@
 package main
 
 import (
-	_ "Isoft_sso/routers"
-	"github.com/astaxie/beego"
-	"net/url"
-	"github.com/astaxie/beego/orm"
-	"fmt"
-	_ "github.com/go-sql-driver/mysql"	// _ 的作用,并不需要把整个包都导入进来,仅仅是是希望它执行init()函数而已
 	"Isoft_sso/models"
+	_ "Isoft_sso/routers"
+	"fmt"
+	"github.com/astaxie/beego"
+	"github.com/astaxie/beego/orm"
+	_ "github.com/go-sql-driver/mysql" // _ 的作用,并不需要把整个包都导入进来,仅仅是是希望它执行init()函数而已
+	"net/url"
 )
 
 func init() {
@@ -35,13 +35,13 @@ func init() {
 
 	registerModel()
 
-	createTable()      // 开启自动建表
+	createTable() // 开启自动建表
 }
 
-func registerModel()  {
+func registerModel() {
 	orm.RegisterModel(new(models.User))
 	orm.RegisterModel(new(models.AppRegister))
-	orm.RegisterModel(new(models.LoginLog))
+	orm.RegisterModel(new(models.LoginRecord))
 }
 
 // 自动建表
@@ -58,4 +58,3 @@ func createTable() {
 func main() {
 	beego.Run()
 }
-
